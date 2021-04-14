@@ -1,1 +1,3 @@
 # CodecademyCommunity.github.io
+
+Coming soon...
