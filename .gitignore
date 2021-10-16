@@ -1,2 +1,5 @@
-.vscode/spellright.dict
-.vscode/settings.json
+.env
+.eslintcache
+/node_modules
+.vscode
+.DS_Store
