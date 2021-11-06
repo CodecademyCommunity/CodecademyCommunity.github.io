@@ -1,0 +1,25 @@
+{
+  "name": "codecademycommunity.github.io",
+  "version": "1.0.0",
+  "description": "The Codecademy Community website",
+  "main": "assets/sass/bulma_styles.scss",
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url assets/sass/bulma_styles.scss assets/css/bulma_styles.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodecademyCommunity/CodecademyCommunity.github.io.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CodecademyCommunity/CodecademyCommunity.github.io/issues"
+  },
+  "homepage": "https://github.com/CodecademyCommunity/CodecademyCommunity.github.io#readme",
+  "devDependencies": {
+    "bulma": "^0.9.3",
+    "node-sass": "^6.0.1"
+  }
+}
