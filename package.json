@@ -4,7 +4,9 @@
   "description": "The Codecademy Community website",
   "main": "assets/sass/bulma_styles.scss",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "css-build": "node-sass --omit-source-map-url assets/sass/bulma_styles.scss assets/css/bulma_styles.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
   },
   "repository": {
     "type": "git",
