@@ -9,12 +9,6 @@ html, body {
     margin: 0;
 }
 
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
 /* HEADER STYLES */
 .logo {
     min-height: 40px;
@@ -108,7 +102,9 @@ button:hover {
 footer {
     font-family: Roboto;
     border-top: 1px solid black;
-    margin-top: auto;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 footer a {
