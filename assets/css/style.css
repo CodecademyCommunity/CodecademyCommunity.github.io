@@ -10,62 +10,17 @@ html, body {
 }
 
 /* HEADER STYLES */
-a {
-    display: inline-block;
-    width: 100%;
-    color:black;
-    text-decoration: none;
+.logo {
+    min-height: 40px;
 }
 
-header {
-    background-color: #FFF0E5;
-    height: 100px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    z-index: 2;
-    position: relative;
-}
-
-.navlogo {
-    position: relative;
-    width: 200px;
-    left: 20px;
-    top: 20px;
-    margin: 10px auto;
-}
-
-nav {
-    float: right;
-    height: 100px;
-    width: 25%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-right: 75px;    
-    position: sticky;
-}
-
-.navlink {
-    list-style-type: none;
-    display: inline-block;
-    font-size: 20px;
-    font-family: "PT Serif", serif;
-    font-size: 20px;
-}
 
 /* MAIN PAGE STYLES */
 main {
     position: relative;
-    background-color: #FFF0E5;
     width: 100%;
     height: 100%;
-    padding-top: 75px;
-}
-
-.serverdescription {
-    background-color: white;
-    width: 1820px;
-    height: 430px;
-    margin: 0px auto;
+    padding: 75px 0;
 }
 
 h2 {
@@ -82,7 +37,7 @@ h2 {
     font-weight: normal;
     font-size: 18px;
     line-height: 50px;
-    margin: 50px 150px;
+    margin: 50px 5%;
 }
 
 .joincontainer {
@@ -109,24 +64,19 @@ button:hover {
     cursor: pointer;
 }
 
-.pagesheader {
-    padding-top: 75px;
-    padding-bottom: 50px;
-}
 
 .pagecontainer {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    width: 1820px;
-    height: 400px;
     margin: 0px auto;
+    padding: 50px;
 }
 
 .pagetile {
-    background-color:white;
     border: 1px solid black;
-    width: 300px;
-    height: 120px;
+    width: 100%;
+    height: 100%;
     padding: 20px;
     transition: 0.2s;
 }
@@ -152,9 +102,7 @@ button:hover {
 /* FOOTER STYLES */
 footer {
     font-family: Roboto;
-    text-align: center;
     border-top: 1px solid black;
-    height: 100px;
 }
 
 footer a {

@@ -1,2 +1,26 @@
 @charset "utf-8";
+
+/* GLOBAL VARIABLES */
+$hyper: #3A10E5;
+$white: #FFFFFF;
+$beige: #FFF0E5;
+$primary: $beige;
+
+$body-background-color: $beige;
+$link: black;
+$link-hover: $hyper;
+
+
+/* NAVBAR VARIABLES */
+$navbar-height: 5rem;
+$navbar-background-color: $primary;
+$navbar-box-shadow-size: 0 1px 2px 1px;
+$navbar-box-shadow-color: grey;
+$navbar-item-hover-background-color: $primary;
+$navbar-item-color: black;
+$navbar-item-hover-color: $hyper;
+
+/* FOOTER VARIABLES */
+$footer-padding: 1.5rem;
+
 @import "../../node_modules/bulma/bulma.sass";
