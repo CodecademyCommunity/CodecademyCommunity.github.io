@@ -103,6 +103,9 @@ button:hover {
 footer {
     font-family: Roboto;
     border-top: 1px solid black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 footer a {
