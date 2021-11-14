@@ -4,7 +4,7 @@
   "description": "The Codecademy Community website",
   "main": "assets/sass/bulma_styles.scss",
   "scripts": {
-    "css-build": "node-sass --omit-source-map-url assets/sass/bulma_styles.scss assets/css/bulma_styles.css",
+    "css-build": "sass --no-source-map assets/sass/bulma_styles.scss assets/css/bulma_styles.css",
     "css-watch": "npm run css-build -- --watch",
     "start": "npm run css-watch"
   },
@@ -20,6 +20,6 @@
   "homepage": "https://github.com/CodecademyCommunity/CodecademyCommunity.github.io#readme",
   "devDependencies": {
     "bulma": "^0.9.3",
-    "node-sass": "^6.0.1"
+    "sass": "^1.43.4"
   }
 }
