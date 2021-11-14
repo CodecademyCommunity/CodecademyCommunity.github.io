@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="./assets/css/staff.css">
         <link rel="stylesheet" href="assets/css/bulma_styles.css">
         <link rel='icon' href='favicon.ico' type='image/x-icon'>
+        <script src="assets/scripts/script.js" defer></script>
         <title>Server Staff</title>
     </head>
     <body>
@@ -14,8 +15,13 @@
             <nav class="navbar has-shadow has-background-primary is-fixed-top">
                 <div class="navbar-brand">
                     <a class="navbar-item" href="index.html"><img src="assets/img/codecademy_logo.png" alt="The codecademy logo" class="logo"></a>
+                    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbar-items">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
                 </div>
-                <div class="navbar-menu">
+                <div class="navbar-menu" id="navbar-items">
                     <div class="navbar-end">
                         <a class="navbar-item" href="./index.html">Home</a>
                         <a class="navbar-item" href="./staff.html">Server Staff</a>
