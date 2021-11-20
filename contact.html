@@ -1,36 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" class="has-navbar-fixed-top">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/bulma_styles.css">
         <link rel='icon' href='favicon.ico' type='image/x-icon'>
-        <title>Contacting Staff</title>
+        <script src="assets/scripts/script.js" defer></script>
+        <title>Contact Us</title>
     </head>
     <body>
-        <h1>How to contact server staff?</h1>
-
-        <p>If there is an issue that requires staff attention, please do not ping or direct message a staff member to report it as this is against server rules and may result in a warn. Instead please use the ModMail bot with the method below to bring any issues to the mod team's attention.</p>
-        <p> If the ModMail bot is offline and you need to report a serious violation of server rules, you can ping an online Admin or Moderator to bring our attention to the violation. However, please reserve this only for when the ModMail bot is down or if the violation requires immediate attention - for example if a user is spamming scam links.</p>
-
-        <h2>The ModMail Bot:</h2>
-        <p>To report any issues you can use the ModMail bot to open a ticket with server staff.</p>
-
-        <ol>
-            <li>
-                <h3>Send a message containing your issue to the bot</h3>
-                <img src="assets/img/modmail0.png">
-                <img src="assets/img/modmail1.png">
-            </li>
-            <li>
-                <h3>Select the Codecademy Community server by reacting with the appropriate number</h3>
-                <p>(You may have to use the arrow reactions to scroll if you are in a large number of servers)</p>
-            </li>
-            <li>
-                <h3>Sent!</h3>
-                <p>Your message has now been sent to server staff.</p>
-                <img src="assets/img/modmail2.png">
-            </li>
-        </ol>
+        <header>
+            <nav class="navbar has-shadow has-background-primary is-fixed-top">
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="index.html"><img src="assets/img/codecademy_logo.png" alt="The codecademy logo" class="logo"></a>
+                    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbar-items">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+                <div class="navbar-menu" id="navbar-items">
+                    <div class="navbar-end">
+                        <a class="navbar-item" href="./index.html">Home</a>
+                        <a class="navbar-item" href="./staff.html">Server Staff</a>
+                        <a class="navbar-item" href="./contact.html">Contact Us</a>
+                        <a class="navbar-item" href="./sharing_code.html">Sharing Code</a>
+                    </div> 
+                </div>
+            </nav>
+        </header>
+        <main class="container has-text-centered">
+            <h1 class="is-size-1">How to contact server staff?</h1>
+            <p class="m-2">If there is an issue that requires staff attention, please do not ping or direct message a staff member to report it as this is against server rules and may result in a warn. Instead please use the ModMail bot with the method below to bring any issues to the mod team's attention.</p>
+            <p class="mb-5"> If the ModMail bot is offline and you need to report a serious violation of server rules, you can ping an online Admin or Moderator to bring our attention to the violation. However, please reserve this only for when the ModMail bot is down or if the violation requires immediate attention - for example if a user is spamming scam links.</p>
+            <div class="container has-background-white p-3">
+                <h2 class="is-size-2">The ModMail Bot</h2>
+                <p>To report any issues you can use the ModMail bot to open a ticket with server staff.</p>
+                <hr>
+                <section>
+                    <h3 class="is-size-3">1. Send a message containing your issue to the bot</h3>
+                    <img src="assets/img/modmail0.png">
+                </section>
+                <hr>
+                <section>
+                    <h3 class="is-size-3">2. Select the Codecademy Community server by reacting with the appropriate number</h3>
+                    <p>(You may have to use the arrow reactions to scroll if you are in a large number of servers)</p>
+                    <img src="assets/img/modmail1.png">
+                </section>
+                <hr>
+                <section>
+                    <h3 class="is-size-3">3. Sent!</h3>
+                    <p>Your message has now been sent to server staff.</p>
+                    <img src="assets/img/modmail2.png">
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="content has-text-centered">
+                <p>Made by the Codecademy community - for the Codecademy community</p>
+                <a href="https://github.com/CodecademyCommunity/CodecademyCommunity.github.io">Github</a>
+                <p>2021</p>            
+            </div>
+        </footer>
     </body>
 </html>
