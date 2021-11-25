@@ -8,6 +8,10 @@ p {
     font-family: 'Roboto', sans-serif;
 }
 
+ul li {
+    list-style-type: bullet;
+}
+
 .staff-list {
     display: flex;
     justify-content: center;
