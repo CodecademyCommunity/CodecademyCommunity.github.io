@@ -1,5 +1,5 @@
-#section-header {
-    font-weight: 400; 
+.section-header {
+    font-weight: 400 !important; 
 }
 
 ul {
