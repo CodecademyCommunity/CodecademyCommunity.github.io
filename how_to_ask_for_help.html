@@ -1,46 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Asking for Help</title>
-</head>
-<body>
-    <h1>How to get Coding Help</h1>  
-    <p>This is a guide on how to get help when you run into a problem while coding.</p>
-    <p>Most people are very keen to offer help if they can, but we have noticed a few problems people make that mean it is harder for others to help them. This might cause you to get frustrated, and not get the help you need.</p>
-
-    <ol>
-        <li>
-            <h2>Let us see your code</h2>
-            <p>We probably cannot help you with your problem if we cannot see what's wrong! And sometimes it is not immediately clear what is wrong. We may need to test and edit the code ourselves to diagnose and find a solution to the problem.</p>
-            <ul>
-                <li>Put the code in a format we can edit. Screenshots or photos of the screen will not work for this, as people would have to type out all of your code just to start helping.</li>
-                <li>Include all of your code. If you just put part of the code that you think is the problem, we cannot help if it turns out the problem is in another part of your code. This is a big issue in CSS, where other parts of your CSS file can change things everywhere.</li>
-                <li>If you change something, post the updated code. This helps people see if you have made error when you have made corrections.</li>
-                <li>Use sites like <a href="https://github.com/">Github</a> or <a href="https://jsfiddle.net/">jsFiddle</a> to post your code in a way that people can see and work with it.</li>
-            </ul>
-        </li>
-        <li>
-            <h2>Tell us your problem</h2>
-            <p>If you have a bug in your code, tell us what it is. Give as much information as possible. What is the bug? What are the error messages? Did it work before and then fail when something changed?</p>
-        </li>
-        <li>
-            <h2>Tell us what you have tried</h2>
-            <p>Community members have better success with troubleshooting when they state what they have already tried themselves.  This context allows others to chime in with more helpful suggestions, and it lets us know that you are willing to put in the work and are not simply expecting to be handed an answer.</p>
-            <p>Writing out the steps you have already taken also has a funny way of helping you see where you went wrong &mdash; sometimes even before we do! This is known as "rubber duck debugging" and is a valuable tool in every developer's toolkit.</p>
-        </li>
-        <li>
-            <h2>Let us know where your task comes from</h2>
-            <p>The Codecademy Community has rules against helping others with school assignments or assessments. Stating what you are working on, like an exercise or project from Codecademy, freeCodeCamp, The Odin Project, etc. lets people know that you are not asking them to help you with your homework.</p>
-            <p>Link to the page if it is a Codecademy lesson or project. Many of us have completed these projects, but it is difficult to navigate back to find our solutions. If you include a link to the excercise, we can easily bring up our answers and compare code to find errors.</p>
-        </li>
-        <li>
-            <h2>Be aware of the following super handy resources to catch simple errors</h2>
-            <p><a href="https://validator.w3.org/">W3C website validator</a>: putting your page in here will let you know about many simple errors, such as unclosed tags.</p>
-            <p><a href="https://text-compare.com/">Text Compare</a>: Works like the diff built into codecademy. When you cannot see where you have made an error, and you are sure it looks like an example. This tool is useful for seeing where easily missed mistakes may be present.</p>
-        </li>
-    </ol>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/bulma_styles.css">
+        <link rel="stylesheet" href="assets/css/how_to_ask_for_help.css">
+        <link rel='icon' href='favicon.ico' type='image/x-icon'>
+        <script src="assets/scripts/script.js" defer></script>
+        <title>Asking for Help</title>
+    </head>
+    <body class="has-navbar-fixed-top">
+        <header>
+            <nav class="navbar has-shadow has-background-primary is-fixed-top">
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="index.html"><img src="assets/img/codecademy_logo.png" alt="The codecademy logo" class="logo"></a>
+                    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbar-items">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+                <div class="navbar-menu" id="navbar-items">
+                    <div class="navbar-end">
+                        <a class="navbar-item" href="./index.html">Home</a>
+                        <a class="navbar-item" href="./staff.html">Server Staff</a>
+                        <a class="navbar-item" href="./contact.html">Contact Us</a>
+                        <a class="navbar-item" href="./sharing_code.html">Sharing Code</a>
+                        <a class="navbar-item" href="./how_to_ask_for_help.html">Getting Help</a>
+                    </div> 
+                </div>
+            </nav>
+        </header>
+        <main class="container has-text-centered">
+            <h1 class="is-size-1">How to get Coding Help</h1>  
+            <p class="p-3">This is a guide on how to get help when you run into a problem while coding.</p>
+            <p class="p-3">Most people are very keen to offer help if they can, but we have noticed a few problems people make that mean it is harder for others to help them. This might cause you to get frustrated, and not get the help you need.</p>
+            <article class="container has-background-white p-6 mt-4">
+                    <section>
+                        <h2 class="is-size-2">1. Let us see your code</h2>
+                        <div class="content">
+                            <p>We probably cannot help you with your problem if we cannot see what's wrong! And sometimes it is not immediately clear what is wrong. We may need to test and edit the code ourselves to diagnose and find a solution to the problem.</p>
+                            <ul>
+                                <li>Put the code in a format we can edit. Screenshots or photos of the screen will not work for this, as people would have to type out all of your code just to start helping.</li>
+                                <li>Include all of your code. If you just put part of the code that you think is the problem, we cannot help if it turns out the problem is in another part of your code. This is a big issue in CSS, where other parts of your CSS file can change things everywhere.</li>
+                                <li>If you change something, post the updated code. This helps people see if you have made error when you have made corrections.</li>
+                                <li>Use sites like <a class="link" href="https://github.com/">Github</a> or <a class="link" href="https://jsfiddle.net/">jsFiddle</a> to post your code in a way that people can see and work with it.</li>
+                            </ul>
+                        </div>
+                    </section>
+                    <hr>
+                    <section>
+                        <h2 class="is-size-2">2. Tell us your problem</h2>
+                        <div class="content">
+                            <p>If you have a bug in your code, tell us what it is. Give as much information as possible. What is the bug? What are the error messages? Did it work before and then fail when something changed?</p>
+                        </div>
+                    </section>
+                    <hr>
+                    <section>
+                        <h2 class="is-size-2">3. Tell us what you have tried</h2>
+                        <div class="content">
+                            <p>Community members have better success with troubleshooting when they state what they have already tried themselves.  This context allows others to chime in with more helpful suggestions, and it lets us know that you are willing to put in the work and are not simply expecting to be handed an answer.</p>
+                            <p>Writing out the steps you have already taken also has a funny way of helping you see where you went wrong &mdash; sometimes even before we do! This is known as "rubber duck debugging" and is a valuable tool in every developer's toolkit.</p>
+                        </div>
+                    </section>
+                    <hr>
+                    <section>
+                        <h2 class="is-size-2">4. Let us know where your task comes from</h2>
+                        <div class="content">
+                            <p>The Codecademy Community has rules against helping others with school assignments or assessments. Stating what you are working on, like an exercise or project from Codecademy, freeCodeCamp, The Odin Project, etc. lets people know that you are not asking them to help you with your homework.</p>
+                            <p>Link to the page if it is a Codecademy lesson or project. Many of us have completed these projects, but it is difficult to navigate back to find our solutions. If you include a link to the excercise, we can easily bring up our answers and compare code to find errors.</p>
+                        </div>
+                    </section>
+                    <hr>
+                    <section>
+                        <h2 class="is-size-2">5. Be aware of the following super handy resources to catch simple errors</h2>
+                        <div class="content">
+                            <p><a class="link" href="https://validator.w3.org/">W3C website validator</a>: putting your page in here will let you know about many simple errors, such as unclosed tags.</p>
+                            <p><a class="link" href="https://text-compare.com/">Text Compare</a>: Works like the diff built into codecademy. When you cannot see where you have made an error, and you are sure it looks like an example. This tool is useful for seeing where easily missed mistakes may be present.</p>
+                        </div>
+                    </section>
+            </article>
+        </main>
+        <footer class="footer">
+            <div class="content has-text-centered">
+                <p>Made by the Codecademy community - for the Codecademy community</p>
+                <a href="https://github.com/CodecademyCommunity/CodecademyCommunity.github.io">Github</a>
+                <p>2021</p>            
+            </div>
+        </footer>
+    </body>
 </html>
