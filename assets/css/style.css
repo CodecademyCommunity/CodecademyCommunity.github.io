@@ -9,6 +9,10 @@ html, body {
     margin: 0;
 }
 
+a {
+    text-decoration: underline;
+}
+
 /* HEADER STYLES */
 .logo {
     min-height: 40px;
