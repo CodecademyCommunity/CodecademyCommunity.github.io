@@ -21,7 +21,6 @@ p {
     margin: 5px 15px;
     text-align: center;
     width: 200px;
-    transition: 250ms ease-in;
 }
 
 .staff-btn:hover {
