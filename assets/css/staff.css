@@ -14,13 +14,18 @@ p {
     flex-wrap: wrap;
 }
 
-.staff-card {
+.staff-card{
     display: inline-block;
     border: 1px solid black;
     padding: 15px 10px;
     margin: 5px 15px;
     text-align: center;
     width: 200px;
+    transition: 250ms ease-in;
+}
+
+.staff-btn:hover {
+    cursor: pointer;
 }
 
 .profile-picture {
@@ -38,9 +43,21 @@ p {
 }
 
 .mod {
-    color: #DEC20B;
+    color: goldenrod;
 }
 
 .coco {
     color: orange;
+}
+
+.staff-btn {
+    height: 50px;
+    width: 100px;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.modal-content {
+    background-color: white;
+    height: 500px;
 }
