@@ -14,7 +14,7 @@ p {
     flex-wrap: wrap;
 }
 
-.staff-card{
+.staff-card {
     display: inline-block;
     border: 1px solid black;
     padding: 15px 10px;
