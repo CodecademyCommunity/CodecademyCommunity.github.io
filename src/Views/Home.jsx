@@ -1,10 +1,6 @@
-import { Footer } from '../Components/Footer.jsx';
-import { Header } from '../Components/Header.jsx';
-
 export const Home = () => {
   return (
 	<>
-		<Header />
 		<main>
 			<section className="section has-background-white">
 				<div className="container">
@@ -61,8 +57,6 @@ export const Home = () => {
 				</div>
 			</section>
 		</main>
-		<Footer />
 	</>
 	);
 }
-

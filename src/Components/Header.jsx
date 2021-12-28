@@ -24,7 +24,7 @@ export const Header = () => {
                 </div>
                 <div className={`navbar-menu ${isActive ? "is-active" : ""}`} id="navbar-items">
                     <div className="navbar-end">
-                        <a className="navbar-item" href="./index.html">Home</a>
+                        <a className="navbar-item" href="/">Home</a>
                         <a className="navbar-item" href="./staff.html">Server Staff</a>
                         <a className="navbar-item" href="./contact.html">Contact Us</a>
                         <a className="navbar-item" href="./sharing_code.html">Sharing Code</a>
