@@ -1,3 +1,4 @@
+//NAV SCRIPTS ----------------------------------------------------------------
 const burger = document.querySelector('.burger');
 const navElements = document.querySelector('#navbar-items');
 

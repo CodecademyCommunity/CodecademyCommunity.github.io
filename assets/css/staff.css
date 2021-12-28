@@ -23,6 +23,10 @@ p {
     width: 200px;
 }
 
+.staff-btn:hover {
+    cursor: pointer;
+}
+
 .profile-picture {
     height: 100px;
     width: 100px;
@@ -38,9 +42,21 @@ p {
 }
 
 .mod {
-    color: #DEC20B;
+    color: goldenrod;
 }
 
 .coco {
     color: orange;
+}
+
+.staff-btn {
+    height: 50px;
+    width: 100px;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.modal-content {
+    background-color: white;
+    height: 500px;
 }
