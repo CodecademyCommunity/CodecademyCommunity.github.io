@@ -10,7 +10,7 @@ function App() {
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path='CodecademyCommunity.github.io' element={<Home />} />
+        <Route path='/' element={<Home />} />
       </Routes>
       <Footer />
     </BrowserRouter>
