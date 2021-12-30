@@ -4,6 +4,7 @@
 
 
 /* GLOBAL STYLES */
+
 html, body {
     padding: 0;
     margin: 0;
@@ -11,20 +12,6 @@ html, body {
 
 a {
     text-decoration: underline;
-}
-
-/* HEADER STYLES */
-.logo {
-    min-height: 40px;
-}
-
-.navbar {
-    z-index: 2;
-}
-
-.navbar-item {
-    font-family: "PT Serif", serif;
-    font-size: 20px;
 }
 
 /* MAIN PAGE STYLES */
@@ -66,7 +53,7 @@ h2 {
 button {
     width: 120px;
     height: 60px;
-    background-color: #3A10E5;
+    background-color: $hyper;
     border: none;
     color: white;
     font-size: 22px;
@@ -111,15 +98,4 @@ button:hover {
 
 .pagedescriptor {
     font-family: Roboto, sans-serif;
-}
-
-
-/* FOOTER STYLES */
-footer {
-    font-family: Roboto;
-    border-top: 1px solid black;
-}
-
-footer a {
-    text-decoration: underline;
 }
