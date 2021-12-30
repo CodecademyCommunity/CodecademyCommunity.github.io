@@ -1,7 +1,4 @@
-/* FONT IMPORTS */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
-
+@charset "utf-8";
 
 /* GLOBAL STYLES */
 
@@ -81,6 +78,7 @@ button:hover {
     height: 100%;
     padding: 20px;
     transition: 0.2s;
+    text-decoration: none;
 }
 
 .pagetile:hover {
@@ -88,7 +86,6 @@ button:hover {
     transform: scale(1.03);
     cursor: pointer;
 }
-
 
 .pagetitle {
     font-size: 24px;
