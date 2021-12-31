@@ -1,9 +1,7 @@
-/* FONT IMPORTS */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
-
+@charset "utf-8";
 
 /* GLOBAL STYLES */
+
 html, body {
     padding: 0;
     margin: 0;
@@ -11,20 +9,6 @@ html, body {
 
 a {
     text-decoration: underline;
-}
-
-/* HEADER STYLES */
-.logo {
-    min-height: 40px;
-}
-
-.navbar {
-    z-index: 2;
-}
-
-.navbar-item {
-    font-family: "PT Serif", serif;
-    font-size: 20px;
 }
 
 /* MAIN PAGE STYLES */
@@ -66,7 +50,7 @@ h2 {
 button {
     width: 120px;
     height: 60px;
-    background-color: #3A10E5;
+    background-color: $hyper;
     border: none;
     color: white;
     font-size: 22px;
@@ -94,6 +78,7 @@ button:hover {
     height: 100%;
     padding: 20px;
     transition: 0.2s;
+    text-decoration: none;
 }
 
 .pagetile:hover {
@@ -101,7 +86,6 @@ button:hover {
     transform: scale(1.03);
     cursor: pointer;
 }
-
 
 .pagetitle {
     font-size: 24px;
@@ -111,15 +95,4 @@ button:hover {
 
 .pagedescriptor {
     font-family: Roboto, sans-serif;
-}
-
-
-/* FOOTER STYLES */
-footer {
-    font-family: Roboto;
-    border-top: 1px solid black;
-}
-
-footer a {
-    text-decoration: underline;
 }
