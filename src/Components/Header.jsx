@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import logo from "../assets/img/codecademy_logo.png"
+import logo from "../assets/img/codecademy_logo.png";
 
 export const Header = () => {
     const [isActive, setIsActive] = useState(false)
