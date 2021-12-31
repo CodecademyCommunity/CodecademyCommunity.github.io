@@ -29,7 +29,7 @@ export const Header = () => {
                         <a className="navbar-item" href="./contact">Contact Us</a>
                         <a className="navbar-item" href="./sharing_code.html">Sharing Code</a>
                         <a className="navbar-item" href="/getting-help">Getting Help</a>
-                        <a className="navbar-item" href="./faqs.html">FAQs</a>
+                        <a className="navbar-item" href="/faq">FAQ</a>
                     </div> 
                 </div>
             </nav>
