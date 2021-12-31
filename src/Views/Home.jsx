@@ -25,31 +25,31 @@ export const Home = () => {
 				<h2 className="is-size-2 ">Pages</h2>
 				<div className="pagecontainer tiles is-ancestor">
 					<div className="tile is-parent">
-						<a className="pagetile tile is-child has-background-white" href="staff.html">
+						<a className="pagetile tile is-child has-background-white" href="/staff">
 							<h3 className="pagetitle">Server Staff</h3>
 							<p className="pagedescriptor">Meet the server staff!</p>
 						</a>
 					</div>
 					<div className="tile is-parent">
-						<a className="pagetile tile is-child has-background-white" href="sharing_code.html">
+						<a className="pagetile tile is-child has-background-white" href="/sharing-code">
 							<h3 className="pagetitle">Sharing Code</h3>
 							<p className="pagedescriptor">How to share code efficiently on the server.</p>
 						</a>
 					</div>
 					<div className="tile is-parent">
-						<a className="pagetile tile is-child has-background-white" href="contact.html">
+						<a className="pagetile tile is-child has-background-white" href="/contact">
 							<h3 className="pagetitle">Contact Us</h3>
 							<p className="pagedescriptor">How to contact server staff about moderation issues.</p>
 						</a>
 					</div>
 					<div className="tile is-parent">
-						<a className="pagetile tile is-child has-background-white" href="how_to_ask_for_help.html">
+						<a className="pagetile tile is-child has-background-white" href="/getting-help">
 							<h3 className="pagetitle">Getting Help</h3>
 							<p className="pagedescriptor">How to get coding help effectively on the server.</p>
 						</a>
 					</div>
 					<div className="tile is-parent">
-						<a className="pagetile tile is-child has-background-white" href="./faqs.html">
+						<a className="pagetile tile is-child has-background-white" href="/faq">
 							<h3 className="pagetitle">FAQs</h3>
 							<p className="pagedescriptor">Some of our frequently asked questions.</p>
 						</a>
