@@ -1,5 +1,6 @@
 import { Home } from './Views/Home.jsx';
 import { Contact } from './Views/Contact.jsx';
+import { SharingCode } from './Views/SharingCode.jsx';
 import { GettingHelp } from './Views/GettingHelp.jsx';
 import { FAQ } from './Views/FAQ.jsx';
 import { Header } from './Components/Header.jsx';
@@ -16,6 +17,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='/sharing-code' element={<SharingCode />} />
         <Route path='/getting-help' element={<GettingHelp />} />
         <Route path='/faq' element={<FAQ />} />
       </Routes>
