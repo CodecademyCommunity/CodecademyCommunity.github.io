@@ -1,8 +1,8 @@
-{
-    "superadmins": [ 
+{   
+   "superadmins": [ 
         [
             "brussels",
-            "https://cdn.discordapp.com/avatars/608641641284370462/2d2d9cb6e846fceb586e3630186f3508.png?size=128"
+            "https://cdn.discordapp.com/avatars/608641641284370462/9c6698249645077608227af19f0673b2.webp?size=80"
         ],
         [
             "Fede |Codecademy|",
@@ -26,15 +26,11 @@
     "mods": [
         [
             "8-Bit",
-            "https://cdn.discordapp.com/avatars/711997187290300546/ecbbc94c78be2f35022c169e8aa6f567.webp?size=80"
+            "https://cdn.discordapp.com/avatars/711997187290300546/4d491b9f6f5ff4b4465dd0bb325d2ca0.webp?size=128"
         ],
         [
             "Codeneutrino [AUS CL]",
             "https://cdn.discordapp.com/avatars/797235974807224391/1f51508c6040703eec08dd5bfda83ad1.webp?size=128"
-        ],
-        [
-            "tgrtim",
-            "assets/img/discord-blank2.png"
         ],
         [
             "Victoria-DR",
@@ -72,11 +68,11 @@
         ],
         [
             "MikeJ",
-            "https://cdn.discordapp.com/avatars/833832122207698945/9d86a57fc85b87af9f77ee59846fa2a1.webp?size=32"
+            "https://cdn.discordapp.com/avatars/833832122207698945/9d86a57fc85b87af9f77ee59846fa2a1.webp?size=128"
         ],
         [
             "Subz",
-            "https://cdn.discordapp.com/avatars/299986462315642881/78aed83a8a7b05a4f306fbb8f4366921.webp?size=32"
+            "https://cdn.discordapp.com/avatars/299986462315642881/78aed83a8a7b05a4f306fbb8f4366921.webp?size=128"
         ]
     ]
 }

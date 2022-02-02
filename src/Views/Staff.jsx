@@ -1,35 +1,64 @@
 import data from '../data/staff.json';
-
-data = JSON.parse(data)
+import blankPfp from '../assets/img/discord-blank2.png';
 
 export const Staff = () => {
     return (
-       <main class="has-text-centered">
-           <h1 class="is-size-1 pagetitle mt-6">Codecademy Community Server Staff</h1>
-           <p class="is-size-4 mb-3">Meet our server staff!</p>
-           <section class="container has-background-white mb-6 p-3">
-               <h2 class="is-size-2">Admins</h2>
+       <main className="has-text-centered">
+           <h1 className="is-size-1 pagetitle mt-6">Codecademy Community Server Staff</h1>
+           <p className="is-size-4 mb-3">Meet our server staff!</p>
+           <section className="container has-background-white mb-6 p-3">
+               <h2 className="is-size-2">Admins</h2>
                <p>Admins are the heads of our staff and the people who manage how the group is run.</p>
-               <div class="staff-list">
-                  
-               </div>
-           </section>
-           <section class="container has-background-white mb-6 p-3">
-               <h2 class="is-size-2">Moderators</h2>
-               <p>Moderators comprise our main staff team and aim to keep the peace and happiness in our community.</p>
-               <div class="staff-list">
-                   <div class="staff-card has-background-white">
-                       <img class="profile-picture" src="https://cdn.discordapp.com/avatars/711997187290300546/ecbbc94c78be2f35022c169e8aa6f567.webp?size=80" />
-                       <p class="name mod">8-Bit</p>
-                   </div>
+               <div className="staff-list">
+                   {
+                       data["superadmins"].map((user) => {
+                            return <div className="staff-card has-background-white">
+                                <img className="profile-picture" src={user[1]}/>
+                                <p className="name super-admin">{user[0]}</p>
+                            </div>
+                       })
+                    }{
+                       data["admins"].map((user) => {
+                        return <div className="staff-card has-background-white">
+                                <img className="profile-picture" src={user[1]}/>
+                                <p className="name admin">{user[0]}</p>
+                            </div>
+                        })
+                    }
 
                </div>
            </section>
-           <section class="container has-background-white mb-6 p-3">
-               <h2 class="is-size-2">Code Counselors</h2>
+           <section className="container has-background-white mb-6 p-3">
+               <h2 className="is-size-2">Moderators</h2>
+               <p>Moderators comprise our main staff team and aim to keep the peace and happiness in our community.</p>
+               <div className="staff-list">
+                    {
+                       data["mods"].map((user) => {
+                        return <div className="staff-card has-background-white">
+                                <img className="profile-picture" src={user[1]}/>
+                                <p className="name mod">{user[0]}</p>
+                            </div>
+                        })
+                    }
+                    <div className="staff-card has-background-white">
+                        <img className="profile-picture" src={blankPfp}/>
+                        <p className="name mod">tgrtim</p>
+                    </div>
+
+               </div>
+           </section>
+           <section className="container has-background-white mb-6 p-3">
+               <h2 className="is-size-2">Code Counselors</h2>
                <p>Code Counselors are members of the community who have been recognised as being the most active, friendly and helpful.</p>
-               <div class="staff-list">
-                
+               <div className="staff-list">
+                    {
+                       data["cocos"].map((user) => {
+                        return <div className="staff-card has-background-white">
+                                <img className="profile-picture" src={user[1]}/>
+                                <p className="name mod">{user[0]}</p>
+                            </div>
+                        })
+                    }
                </div>
            </section>
        </main>
