@@ -3,8 +3,8 @@ import blankPfp from '../assets/img/discord-blank2.png';
 
 export const Staff = () => {
     return (
-       <main className="has-text-centered">
-           <h1 className="is-size-1 pagetitle mt-6">Codecademy Community Server Staff</h1>
+       <main className="has-text-centered title">
+           <h1 className="is-size-1 pagetitle">Codecademy Community Server Staff</h1>
            <p className="is-size-4 mb-3">Meet our server staff!</p>
            <section className="container has-background-white mb-6 p-3">
                <h2 className="is-size-2">Admins</h2>
