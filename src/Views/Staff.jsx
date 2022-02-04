@@ -12,14 +12,14 @@ export const Staff = () => {
                <div className="staff-list">
                    {
                        data["superadmins"].map((user) => {
-                            return <div className="staff-card has-background-white">
+                            return <div key={user["name"]} className="staff-card has-background-white">
                                 <img className="profile-picture" src={user["pfp"]}/>
                                 <p className="name super-admin">{user["name"]}</p>
                             </div>
                        })
                     }{
                        data["admins"].map((user) => {
-                        return <div className="staff-card has-background-white">
+                        return <div key={user["name"]} className="staff-card has-background-white">
                                 <img className="profile-picture" src={user["pfp"]}/>
                                 <p className="name admin">{user["name"]}</p>
                             </div>
@@ -34,7 +34,7 @@ export const Staff = () => {
                <div className="staff-list">
                     {
                        data["mods"].map((user) => {
-                        return <div className="staff-card has-background-white">
+                        return <div key={user["name"]} className="staff-card has-background-white">
                                 <img className="profile-picture" src={user["pfp"]}/>
                                 <p className="name mod">{user["name"]}</p>
                             </div>
@@ -53,7 +53,7 @@ export const Staff = () => {
                <div className="staff-list">
                     {
                        data["cocos"].map((user) => {
-                        return <div className="staff-card has-background-white">
+                        return <div key={user["name"]} className="staff-card has-background-white">
                                 <img className="profile-picture" src={user["pfp"]}/>
                                 <p className="name coco">{user["name"]}</p>
                             </div>
