@@ -3,7 +3,7 @@ import blankPfp from '../assets/img/discord-blank2.png';
 
 export const Staff = () => {
     return (
-       <main className="has-text-centered title">
+       <main className="has-text-centered">
            <h1 className="is-size-1 pagetitle">Codecademy Community Server Staff</h1>
            <p className="is-size-4 mb-3">Meet our server staff!</p>
            <section className="container has-background-white mb-6 p-3">
@@ -13,15 +13,15 @@ export const Staff = () => {
                    {
                        data["superadmins"].map((user) => {
                             return <div className="staff-card has-background-white">
-                                <img className="profile-picture" src={user[1]}/>
-                                <p className="name super-admin">{user[0]}</p>
+                                <img className="profile-picture" src={user["pfp"]}/>
+                                <p className="name super-admin">{user["name"]}</p>
                             </div>
                        })
                     }{
                        data["admins"].map((user) => {
                         return <div className="staff-card has-background-white">
-                                <img className="profile-picture" src={user[1]}/>
-                                <p className="name admin">{user[0]}</p>
+                                <img className="profile-picture" src={user["pfp"]}/>
+                                <p className="name admin">{user["name"]}</p>
                             </div>
                         })
                     }
@@ -35,8 +35,8 @@ export const Staff = () => {
                     {
                        data["mods"].map((user) => {
                         return <div className="staff-card has-background-white">
-                                <img className="profile-picture" src={user[1]}/>
-                                <p className="name mod">{user[0]}</p>
+                                <img className="profile-picture" src={user["pfp"]}/>
+                                <p className="name mod">{user["name"]}</p>
                             </div>
                         })
                     }
@@ -54,8 +54,8 @@ export const Staff = () => {
                     {
                        data["cocos"].map((user) => {
                         return <div className="staff-card has-background-white">
-                                <img className="profile-picture" src={user[1]}/>
-                                <p className="name mod">{user[0]}</p>
+                                <img className="profile-picture" src={user["pfp"]}/>
+                                <p className="name coco">{user["name"]}</p>
                             </div>
                         })
                     }
