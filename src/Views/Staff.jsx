@@ -40,7 +40,7 @@ export const Staff = () => {
                         data["mods"].map((user) => {
                             return <StaffCard 
                                     key={user["name"]}
-                                    name={user["name"]}
+                                    naSme={user["name"]}
                                     pfp={user["pfp"]}
                                     role="mod"
                                     />
@@ -48,7 +48,7 @@ export const Staff = () => {
                     }
                     {/* tgrtim must be accounted for seperatly due to having blank pfp and discord weirdness with URLS
                      */}
-                    <StaffCard name="tgrtim" pfp={blankPfp} role="mod"/>
+                    <StaffCard key="tgrtim" name="tgrtim" pfp={blankPfp} role="mod"/>
 
                </div>
            </section>
