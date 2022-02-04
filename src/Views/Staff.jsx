@@ -1,5 +1,6 @@
 import data from '../data/staff.json';
 import blankPfp from '../assets/img/discord-blank2.png';
+import { StaffCard } from '../Components/StaffCard';
 
 export const Staff = () => {
     return (
@@ -11,21 +12,24 @@ export const Staff = () => {
                <p>Admins are the heads of our staff and the people who manage how the group is run.</p>
                <div className="staff-list">
                    {
-                       data["superadmins"].map((user) => {
-                            return <div key={user["name"]} className="staff-card has-background-white">
-                                <img className="profile-picture" src={user["pfp"]}/>
-                                <p className="name super-admin">{user["name"]}</p>
-                            </div>
-                       })
+                         data["superadmins"].map((user) => {
+                            return <StaffCard 
+                                    key={user["name"]}
+                                    name={user["name"]}
+                                    pfp={user["pfp"]}
+                                    role="super-admin"
+                                    />
+                         })
                     }{
-                       data["admins"].map((user) => {
-                        return <div key={user["name"]} className="staff-card has-background-white">
-                                <img className="profile-picture" src={user["pfp"]}/>
-                                <p className="name admin">{user["name"]}</p>
-                            </div>
+                        data["admins"].map((user) => {
+                            return <StaffCard 
+                                    key={user["name"]}
+                                    name={user["name"]}
+                                    pfp={user["pfp"]}
+                                    role="admin"
+                                    />
                         })
                     }
-
                </div>
            </section>
            <section className="container has-background-white mb-6 p-3">
@@ -33,17 +37,18 @@ export const Staff = () => {
                <p>Moderators comprise our main staff team and aim to keep the peace and happiness in our community.</p>
                <div className="staff-list">
                     {
-                       data["mods"].map((user) => {
-                        return <div key={user["name"]} className="staff-card has-background-white">
-                                <img className="profile-picture" src={user["pfp"]}/>
-                                <p className="name mod">{user["name"]}</p>
-                            </div>
+                        data["mods"].map((user) => {
+                            return <StaffCard 
+                                    key={user["name"]}
+                                    name={user["name"]}
+                                    pfp={user["pfp"]}
+                                    role="mod"
+                                    />
                         })
                     }
-                    <div className="staff-card has-background-white">
-                        <img className="profile-picture" src={blankPfp}/>
-                        <p className="name mod">tgrtim</p>
-                    </div>
+                    {/* tgrtim must be accounted for seperatly due to having blank pfp and discord weirdness with URLS
+                     */}
+                    <StaffCard name="tgrtim" pfp={blankPfp} role="mod"/>
 
                </div>
            </section>
@@ -52,11 +57,13 @@ export const Staff = () => {
                <p>Code Counselors are members of the community who have been recognised as being the most active, friendly and helpful.</p>
                <div className="staff-list">
                     {
-                       data["cocos"].map((user) => {
-                        return <div key={user["name"]} className="staff-card has-background-white">
-                                <img className="profile-picture" src={user["pfp"]}/>
-                                <p className="name coco">{user["name"]}</p>
-                            </div>
+                        data["cocos"].map((user) => {
+                            return <StaffCard 
+                                    key={user["name"]}
+                                    name={user["name"]}
+                                    pfp={user["pfp"]}
+                                    role="coco"
+                                    />  
                         })
                     }
                </div>
