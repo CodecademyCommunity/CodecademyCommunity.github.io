@@ -40,7 +40,7 @@ export const Staff = () => {
                         data["mods"].map((user) => {
                             return <StaffCard 
                                     key={user["name"]}
-                                    naSme={user["name"]}
+                                    name={user["name"]}
                                     pfp={user["pfp"]}
                                     role="mod"
                                     />
