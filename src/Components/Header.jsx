@@ -1,4 +1,5 @@
 import {useState} from 'react';
+import { Link } from "react-router-dom";
 import logo from "../assets/img/codecademy_logo.png";
 
 export const Header = () => {
@@ -24,12 +25,12 @@ export const Header = () => {
                 </div>
                 <div className={`navbar-menu ${isActive ? "is-active" : ""}`} id="navbar-items">
                     <div className="navbar-end">
-                        <a className="navbar-item" href="/">Home</a>
-                        <a className="navbar-item" href="/staff.html">Server Staff</a>
-                        <a className="navbar-item" href="/contact">Contact Us</a>
-                        <a className="navbar-item" href="/sharing-code">Sharing Code</a>
-                        <a className="navbar-item" href="/getting-help">Getting Help</a>
-                        <a className="navbar-item" href="/faq">FAQ</a>
+                        <Link className="navbar-item" to="/">Home</Link>
+                        <Link className="navbar-item" to="/staff">Server Staff</Link>
+                        <Link className="navbar-item" to="/contact">Contact Us</Link>
+                        <Link className="navbar-item" to="/sharing-code">Sharing Code</Link>
+                        <Link className="navbar-item" to="/getting-help">Getting Help</Link>
+                        <Link className="navbar-item" to="/faq">FAQ</Link>
                     </div> 
                 </div>
             </nav>
