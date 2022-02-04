@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export const Home = () => {
   return (
 	<>
@@ -25,34 +27,34 @@ export const Home = () => {
 				<h2 className="is-size-2 ">Pages</h2>
 				<div className="pagecontainer tiles is-ancestor">
 					<div className="tile is-parent">
-						<a className="pagetile tile is-child has-background-white" href="/staff">
+						<Link className="pagetile tile is-child has-background-white" to="/staff">
 							<h3 className="pagetitle">Server Staff</h3>
 							<p className="pagedescriptor">Meet the server staff!</p>
-						</a>
+						</Link>
 					</div>
 					<div className="tile is-parent">
-						<a className="pagetile tile is-child has-background-white" href="/sharing-code">
+						<Link className="pagetile tile is-child has-background-white" to="/sharing-code">
 							<h3 className="pagetitle">Sharing Code</h3>
 							<p className="pagedescriptor">How to share code efficiently on the server.</p>
-						</a>
+						</Link>
 					</div>
 					<div className="tile is-parent">
-						<a className="pagetile tile is-child has-background-white" href="/contact">
+						<Link className="pagetile tile is-child has-background-white" to="/contact">
 							<h3 className="pagetitle">Contact Us</h3>
 							<p className="pagedescriptor">How to contact server staff about moderation issues.</p>
-						</a>
+						</Link>
 					</div>
 					<div className="tile is-parent">
-						<a className="pagetile tile is-child has-background-white" href="/getting-help">
+						<Link className="pagetile tile is-child has-background-white" to="/getting-help">
 							<h3 className="pagetitle">Getting Help</h3>
 							<p className="pagedescriptor">How to get coding help effectively on the server.</p>
-						</a>
+						</Link>
 					</div>
 					<div className="tile is-parent">
-						<a className="pagetile tile is-child has-background-white" href="/faq">
+						<Link className="pagetile tile is-child has-background-white" to="/faq">
 							<h3 className="pagetitle">FAQs</h3>
 							<p className="pagedescriptor">Some of our frequently asked questions.</p>
-						</a>
+						</Link>
 					</div>
 				</div>
 			</section>

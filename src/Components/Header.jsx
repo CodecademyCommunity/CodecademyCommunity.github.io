@@ -9,7 +9,7 @@ export const Header = () => {
         <header>
             <nav className="navbar has-shadow has-background-primary is-fixed-top">
                 <div className="navbar-brand">
-                    <a className="navbar-item" href="index.html"><img src={logo} alt="The codecademy logo" className="logo" /></a>
+                    <Link className="navbar-item" to="/"><img src={logo} alt="The codecademy logo" className="logo" /></Link>
                     <a 
                         onClick={() => setIsActive(!isActive)} 
                         role="button"
