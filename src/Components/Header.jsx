@@ -3,13 +3,18 @@ import { Link } from "react-router-dom";
 import logo from "../assets/img/codecademy_logo.png";
 
 export const Header = () => {
-    const [isActive, setIsActive] = useState(false)
+    const [isActive, setIsActive] = useState(false);
+    
+    function handleNavigate() {
+        setIsActive(false);
+        window.scroll({top: 0, left: 0});
+    }
 
     return (
         <header>
             <nav className="navbar has-shadow has-background-primary is-fixed-top">
                 <div className="navbar-brand">
-                    <Link className="navbar-item" to="/"><img src={logo} alt="The codecademy logo" className="logo" /></Link>
+                    <Link className="navbar-item" to="/" onClick={handleNavigate}><img src={logo} alt="The codecademy logo" className="logo" /></Link>
                     <a 
                         onClick={() => setIsActive(!isActive)} 
                         role="button"
@@ -25,12 +30,12 @@ export const Header = () => {
                 </div>
                 <div className={`navbar-menu ${isActive ? "is-active" : ""}`} id="navbar-items">
                     <div className="navbar-end">
-                        <Link className="navbar-item" to="/">Home</Link>
-                        <Link className="navbar-item" to="/staff">Server Staff</Link>
-                        <Link className="navbar-item" to="/contact">Contact Us</Link>
-                        <Link className="navbar-item" to="/sharing-code">Sharing Code</Link>
-                        <Link className="navbar-item" to="/getting-help">Getting Help</Link>
-                        <Link className="navbar-item" to="/faq">FAQ</Link>
+                        <Link className="navbar-item" to="/" onClick={handleNavigate}>Home</Link>
+                        <Link className="navbar-item" to="/staff" onClick={handleNavigate}>Server Staff</Link>
+                        <Link className="navbar-item" to="/contact" onClick={handleNavigate}>Contact Us</Link>
+                        <Link className="navbar-item" to="/sharing-code" onClick={handleNavigate}>Sharing Code</Link>
+                        <Link className="navbar-item" to="/getting-help" onClick={handleNavigate}>Getting Help</Link>
+                        <Link className="navbar-item" to="/faq" onClick={handleNavigate}>FAQ</Link>
                     </div> 
                 </div>
             </nav>
