@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
 
 export const Home = () => {
+
+  const handleNavigate = () => window.scroll({top: 0, left: 0});
+
   return (
 	<>
 		<main>
@@ -27,31 +30,31 @@ export const Home = () => {
 				<h2 className="is-size-2 ">Pages</h2>
 				<div className="pagecontainer tiles is-ancestor">
 					<div className="tile is-parent">
-						<Link className="pagetile tile is-child has-background-white" to="/staff">
+						<Link className="pagetile tile is-child has-background-white" to="/staff" onClick={handleNavigate}>
 							<h3 className="pagetitle">Server Staff</h3>
 							<p className="pagedescriptor">Meet the server staff!</p>
 						</Link>
 					</div>
 					<div className="tile is-parent">
-						<Link className="pagetile tile is-child has-background-white" to="/sharing-code">
+						<Link className="pagetile tile is-child has-background-white" to="/sharing-code" onClick={handleNavigate}>
 							<h3 className="pagetitle">Sharing Code</h3>
 							<p className="pagedescriptor">How to share code efficiently on the server.</p>
 						</Link>
 					</div>
 					<div className="tile is-parent">
-						<Link className="pagetile tile is-child has-background-white" to="/contact">
+						<Link className="pagetile tile is-child has-background-white" to="/contact" onClick={handleNavigate}>
 							<h3 className="pagetitle">Contact Us</h3>
 							<p className="pagedescriptor">How to contact server staff about moderation issues.</p>
 						</Link>
 					</div>
 					<div className="tile is-parent">
-						<Link className="pagetile tile is-child has-background-white" to="/getting-help">
+						<Link className="pagetile tile is-child has-background-white" to="/getting-help" onClick={handleNavigate}>
 							<h3 className="pagetitle">Getting Help</h3>
 							<p className="pagedescriptor">How to get coding help effectively on the server.</p>
 						</Link>
 					</div>
 					<div className="tile is-parent">
-						<Link className="pagetile tile is-child has-background-white" to="/faq">
+						<Link className="pagetile tile is-child has-background-white" to="/faq" onClick={handleNavigate}>
 							<h3 className="pagetitle">FAQs</h3>
 							<p className="pagedescriptor">Some of our frequently asked questions.</p>
 						</Link>
