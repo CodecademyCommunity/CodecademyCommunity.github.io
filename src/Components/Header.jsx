@@ -17,6 +17,7 @@ export const Header = () => {
           <Link className="navbar-item" to="/" onClick={handleNavigate}>
             <img src={logo} alt="The codecademy logo" className="logo" />
           </Link>
+          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
           <a
             onClick={() => setIsActive(!isActive)}
             role="button"
