@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/CodecademyCommunity/CodecademyCommunity.github.io/static/css/main.d1f6d100.css",
+    "main.js": "/CodecademyCommunity/CodecademyCommunity.github.io/static/js/main.dbb8f826.js",
+    "static/js/787.6747703d.chunk.js": "/CodecademyCommunity/CodecademyCommunity.github.io/static/js/787.6747703d.chunk.js",
+    "static/media/modmail1.png": "/CodecademyCommunity/CodecademyCommunity.github.io/static/media/modmail1.7f95e0441a1f27d02392.png",
+    "static/media/modmail0.png": "/CodecademyCommunity/CodecademyCommunity.github.io/static/media/modmail0.5a960d6cdea5b4bfd4a2.png",
+    "static/media/modmail2.png": "/CodecademyCommunity/CodecademyCommunity.github.io/static/media/modmail2.84f55226aad68cb0b01a.png",
+    "static/media/codecademy_logo.png": "/CodecademyCommunity/CodecademyCommunity.github.io/static/media/codecademy_logo.b5b639755f3560488e38.png",
+    "static/media/cc_sharing.png": "/CodecademyCommunity/CodecademyCommunity.github.io/static/media/cc_sharing.c5c6eae7ab80c87e1261.png",
+    "index.html": "/CodecademyCommunity/CodecademyCommunity.github.io/index.html",
+    "main.d1f6d100.css.map": "/CodecademyCommunity/CodecademyCommunity.github.io/static/css/main.d1f6d100.css.map",
+    "main.dbb8f826.js.map": "/CodecademyCommunity/CodecademyCommunity.github.io/static/js/main.dbb8f826.js.map",
+    "787.6747703d.chunk.js.map": "/CodecademyCommunity/CodecademyCommunity.github.io/static/js/787.6747703d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d1f6d100.css",
+    "static/js/main.dbb8f826.js"
+  ]
+}
