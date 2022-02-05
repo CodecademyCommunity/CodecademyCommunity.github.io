@@ -12,20 +12,20 @@ import './assets/sass/app.scss';
 
 function App() {
   return (
-   <>
-    <BrowserRouter>
-      <Header />
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/staff' element={<Staff />} />
-        <Route path='/contact' element={<Contact />} />
-        <Route path='/sharing-code' element={<SharingCode />} />
-        <Route path='/getting-help' element={<GettingHelp />} />
-        <Route path='/faq' element={<FAQ />} />
-      </Routes>
-      <Footer />
-    </BrowserRouter>
-   </>
+    <>
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/staff" element={<Staff />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/sharing-code" element={<SharingCode />} />
+          <Route path="/getting-help" element={<GettingHelp />} />
+          <Route path="/faq" element={<FAQ />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
+    </>
   );
 }
 
