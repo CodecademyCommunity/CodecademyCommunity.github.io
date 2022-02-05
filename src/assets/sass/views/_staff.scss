@@ -18,7 +18,7 @@ p {
     padding: 15px 10px;
     margin: 5px 15px;
     text-align: center;
-    width: 200px;
+    width: 230px;
 }
 
 .staff-btn:hover {
@@ -57,4 +57,12 @@ p {
 .modal-content {
     background-color: white;
     height: 500px;
+}
+
+.bio-button {
+    height: fit-content;
+    width: fit-content;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 25px;
 }

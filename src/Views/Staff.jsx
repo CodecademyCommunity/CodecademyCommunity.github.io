@@ -18,6 +18,7 @@ export const Staff = () => {
                                     name={user["name"]}
                                     pfp={user["pfp"]}
                                     role="super-admin"
+                                    bio={user["bio"]}
                                     />
                          })
                     }{
@@ -27,6 +28,7 @@ export const Staff = () => {
                                     name={user["name"]}
                                     pfp={user["pfp"]}
                                     role="admin"
+                                    bio={user["bio"]}
                                     />
                         })
                     }
@@ -43,12 +45,13 @@ export const Staff = () => {
                                     name={user["name"]}
                                     pfp={user["pfp"]}
                                     role="mod"
+                                    bio={user["bio"]}
                                     />
                         })
                     }
                     {/* tgrtim must be accounted for seperatly due to having blank pfp and discord weirdness with URLS
                      */}
-                    <StaffCard key="tgrtim" name="tgrtim" pfp={blankPfp} role="mod"/>
+                    <StaffCard key="tgrtim" name="tgrtim" pfp={blankPfp} role="mod" bio="Community staff member"/>
 
                </div>
            </section>
@@ -63,6 +66,7 @@ export const Staff = () => {
                                     name={user["name"]}
                                     pfp={user["pfp"]}
                                     role="coco"
+                                    bio={user["bio"]}
                                     />  
                         })
                     }

@@ -2,77 +2,94 @@
    "superadmins": [ 
         {
             "name": "brussels",
-            "pfp": "https://cdn.discordapp.com/avatars/608641641284370462/9c6698249645077608227af19f0673b2.webp?size=80"
+            "pfp": "https://cdn.discordapp.com/avatars/608641641284370462/9c6698249645077608227af19f0673b2.webp?size=80",
+            "bio": "Community admin"
         },
         {
             "name": "Fede |Codecademy|",
-            "pfp": "https://cdn.discordapp.com/avatars/106136650161061888/efb42ef2e355d2382bdb6ec45c246d62.webp?size=128"
+            "pfp": "https://cdn.discordapp.com/avatars/106136650161061888/efb42ef2e355d2382bdb6ec45c246d62.webp?size=128",
+            "bio": "Community admin"
         }
     ],
     "admins": [
         {
             "name": "el_cocodrilo",
-            "pfp": "https://cdn.discordapp.com/avatars/711756182909485116/ce00fb04adfd36519d16627f1dffea3d.png?size=80"   
+            "pfp": "https://cdn.discordapp.com/avatars/711756182909485116/ce00fb04adfd36519d16627f1dffea3d.png?size=80" ,
+            "bio": "Community admin"  
         },
         {
             "name": "Lillian (she/her)",
-            "pfp": "https://cdn.discordapp.com/avatars/610527108254400559/19ed8d3eaa42649a35f8e8cf0dc9cd3d.webp?size=80"
+            "pfp": "https://cdn.discordapp.com/avatars/610527108254400559/19ed8d3eaa42649a35f8e8cf0dc9cd3d.webp?size=80",
+            "bio": "Community admin"
         },
         {
             "name": "mariana-hq",
-            "pfp": "https://cdn.discordapp.com/avatars/897902235537768509/cee345109153c704b47da2ec18aa434b.webp?size=128"
+            "pfp": "https://cdn.discordapp.com/avatars/897902235537768509/cee345109153c704b47da2ec18aa434b.webp?size=128",
+            "bio": "Community admin"
         }
     ],
     "mods": [
         {
             "name": "8-Bit",
-            "pfp": "https://cdn.discordapp.com/avatars/711997187290300546/4d491b9f6f5ff4b4465dd0bb325d2ca0.webp?size=128"
+            "pfp": "https://cdn.discordapp.com/avatars/711997187290300546/4d491b9f6f5ff4b4465dd0bb325d2ca0.webp?size=128",
+            "bio": "Community mod"
         },
         {
             "name": "Codeneutrino [AUS CL]",
-            "pfp": "https://cdn.discordapp.com/avatars/797235974807224391/1f51508c6040703eec08dd5bfda83ad1.webp?size=128"
+            "pfp": "https://cdn.discordapp.com/avatars/797235974807224391/1f51508c6040703eec08dd5bfda83ad1.webp?size=128",
+            "bio": "Community mod"
         },
         {
             "name": "Victoria-DR",
-            "pfp": "https://cdn.discordapp.com/avatars/543076845919404034/a6cd050c4d6f5f3b1b2036595e4f1730.webp?size=128"
+            "pfp": "https://cdn.discordapp.com/avatars/543076845919404034/a6cd050c4d6f5f3b1b2036595e4f1730.webp?size=128",
+            "bio": "Community mod"
         },
         {
             "name": "Lyall (he/him) [Bristol CL]",
-            "pfp": "https://cdn.discordapp.com/avatars/715846451334217728/cacae335b4d9aa9bf6924a8d85368812.webp?size=128"
+            "pfp": "https://cdn.discordapp.com/avatars/715846451334217728/cacae335b4d9aa9bf6924a8d85368812.webp?size=128",
+            "bio": "Community mod"
         }
     ],
     "cocos": [
         {
             "name": "megara | Rachel (she/her)",
-            "pfp": "https://cdn.discordapp.com/avatars/340468986007388163/f0b16633da78b621d2d851e4b4765741.webp?size=128"
+            "pfp": "https://cdn.discordapp.com/avatars/340468986007388163/f0b16633da78b621d2d851e4b4765741.webp?size=128",
+            "bio": "Code counselor"
         },
         {
             "name": "-Solace-",
-            "pfp": "https://cdn.discordapp.com/avatars/254109437407657985/0fec998fcdf0b3d39a4693d1b98da5e9.webp?size=128"
+            "pfp": "https://cdn.discordapp.com/avatars/254109437407657985/0fec998fcdf0b3d39a4693d1b98da5e9.webp?size=128",
+            "bio": "Code counselor"
         },
         {
             "name": "Alex Wojtak (he/him)",
-            "pfp": "https://cdn.discordapp.com/avatars/696298292149092413/bb10d3b060f8b5e4efffd273ee6e1815.webp?size=128"
+            "pfp": "https://cdn.discordapp.com/avatars/696298292149092413/bb10d3b060f8b5e4efffd273ee6e1815.webp?size=128",
+            "bio": "Code counselor"
         },
         {
             "name": "UnseenCode",
-            "pfp": "https://cdn.discordapp.com/avatars/821869015143284766/fdf38925ee209ce9bd95a1e74f03a55e.webp?size=80"
+            "pfp": "https://cdn.discordapp.com/avatars/821869015143284766/fdf38925ee209ce9bd95a1e74f03a55e.webp?size=80",
+            "bio": "Code counselor"
         },
         {
             "name": "Christo (he/him)",
-            "pfp": "https://cdn.discordapp.com/avatars/225808309343617025/6659ece3ae53ac3778d9d20608c231a3.webp?size=80"
+            "pfp": "https://cdn.discordapp.com/avatars/225808309343617025/6659ece3ae53ac3778d9d20608c231a3.webp?size=80",
+            "bio": "Code counselor"
         },
         {
             "name": "Hunter The Milk Turtle",
-            "pfp": "https://cdn.discordapp.com/avatars/450050876237807637/0b89bd0c876f189f675811f208db6a12.webp?size=80"
+            "pfp": "https://cdn.discordapp.com/avatars/450050876237807637/0b89bd0c876f189f675811f208db6a12.webp?size=80",
+            "bio": "Code counselor"
         },
         {
             "name": "MikeJ",
-            "pfp": "https://cdn.discordapp.com/avatars/833832122207698945/9d86a57fc85b87af9f77ee59846fa2a1.webp?size=128"
+            "pfp": "https://cdn.discordapp.com/avatars/833832122207698945/9d86a57fc85b87af9f77ee59846fa2a1.webp?size=128",
+            "bio": "Code counselor"
         },
         {
             "name": "subz",
-            "pfp": "https://cdn.discordapp.com/avatars/299986462315642881/78aed83a8a7b05a4f306fbb8f4366921.webp?size=128"
+            "pfp": "https://cdn.discordapp.com/avatars/299986462315642881/78aed83a8a7b05a4f306fbb8f4366921.webp?size=128",
+            "bio": "Code counselor"
         }
     ]
 }
