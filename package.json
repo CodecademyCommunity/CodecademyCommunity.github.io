@@ -7,6 +7,7 @@
     "type": "git",
     "url": "git+https://github.com/CodecademyCommunity/CodecademyCommunity.github.io.git"
   },
+  "homepage": "https://github.com/CodecademyCommunity/CodecademyCommunity.github.io",
   "author": "",
   "license": "MIT",
   "bugs": {
@@ -28,15 +29,16 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prepare": "husky install"
   },
   "eslintConfig": {
     "extends": [
       "react-app",
-      "react-app/jest"
+      "react-app/jest",
+      "prettier"
     ]
   },
   "browserslist": {
@@ -50,5 +52,15 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^8.3.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.3",
+    "prettier": "2.5.1"
+  },
+  "lint-staged": {
+    "*.{js,jsx,scss,css,md}": "prettier --write",
+    "*.{js,jsx}": "eslint --cache --fix"
   }
 }
