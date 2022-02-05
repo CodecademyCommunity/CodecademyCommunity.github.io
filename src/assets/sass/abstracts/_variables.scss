@@ -1,0 +1,20 @@
+/* GLOBAL VARIABLES */
+$hyper: #3a10e5;
+$beige: #fff0e5;
+$primary: $beige;
+
+$body-background-color: $beige;
+$link: black;
+$link-hover: $hyper;
+
+/* NAVBAR VARIABLES */
+$navbar-height: 5rem;
+$navbar-background-color: $primary;
+$navbar-box-shadow-size: 0px 4px 4px;
+$navbar-box-shadow-color: rgba(0, 0, 0, 0.15);
+$navbar-item-hover-background-color: $primary;
+$navbar-item-color: black;
+$navbar-item-hover-color: $hyper;
+
+/* FOOTER VARIABLES */
+$footer-padding: 1.5rem;

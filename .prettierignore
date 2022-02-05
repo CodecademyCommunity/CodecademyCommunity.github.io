@@ -1,0 +1,14 @@
+# Directories to ignore
+/build
+/node_modules
+.github
+.vscode
+
+# Individual files to ignore
+.env
+.eslintrc.json
+.git-blame-ignore-revs
+package.json
+package-lock.json
+.prettierrc.json
+settings.json.example
