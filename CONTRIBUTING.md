@@ -7,7 +7,9 @@ Please review the [issues](https://github.com/CodecademyCommunity/CodecademyComm
 This project is still in it's (fairly) early stages and we need designers, developers and PMs, feel free to reach out on Discord (via ModMail) if you would like to be a part of this.
 
 ## Initial setup
+
 This assumes you have Git installed and setup, if you do not please download and install it from [here](https://git-scm.com/).
+
 ### Clone This Repo
 
 1. In the main page of the repo, notice the big green button that says "Code". Click it.
@@ -35,12 +37,15 @@ You can now run:
 ```
 npm start
 ```
+
 To start the React project, which will launch the site inside your default browser.
 
 ## Git Workflow
+
 You now have a local copy of our site set up and can edit inside of it, congrats! You can now assign yourself to, and work on, any issues you wish from our issues tab!
 
 Our basic Git Workflow is as follows:
+
 1. Create (or assign yourself to) an issue.
 2. Create a branch locally for your changes.
 3. Make the required changes.
