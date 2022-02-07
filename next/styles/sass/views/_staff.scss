@@ -1,0 +1,68 @@
+staff-section {
+  margin-bottom: 5%;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+.staff-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.staff-card {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 15px 10px;
+  margin: 5px 15px;
+  text-align: center;
+  width: 230px;
+}
+
+.staff-btn:hover {
+  cursor: pointer;
+}
+
+.profile-picture {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+}
+
+.super-admin {
+  color: purple;
+}
+
+.admin {
+  color: red;
+}
+
+.mod {
+  color: goldenrod;
+}
+
+.coco {
+  color: orange;
+}
+
+.staff-btn {
+  height: 50px;
+  width: 100px;
+  font-size: 18px;
+  margin: 10px;
+}
+
+.modal-content {
+  background-color: white;
+  height: 500px;
+}
+
+.bio-button {
+  height: fit-content;
+  width: fit-content;
+  font-size: 18px;
+  padding: 10px;
+  margin-top: 25px;
+}
