@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import ModMailImg0 from '../public/img/modmail0.png';
 import ModMailImg1 from '../public/img/modmail1.png';
 import ModMailImg2 from '../public/img/modmail2.png';
@@ -31,7 +32,7 @@ export default function Contact() {
           <h3 className="is-size-3">
             1. Send a message containing your issue to the bot
           </h3>
-          <img src={ModMailImg0} alt="modmail bot profile" />
+          <Image src={ModMailImg0} alt="modmail bot profile" />
         </section>
         <hr />
         <section>
@@ -43,13 +44,13 @@ export default function Contact() {
             (You may have to use the arrow reactions to scroll if you are in a
             large number of servers)
           </p>
-          <img src={ModMailImg1} alt="modmail menu" />
+          <Image src={ModMailImg1} alt="modmail menu" />
         </section>
         <hr />
         <section>
           <h3 className="is-size-3">3. Sent!</h3>
           <p>Your message has now been sent to server staff.</p>
-          <img src={ModMailImg2} alt="modmail direct message" />
+          <Image src={ModMailImg2} alt="modmail direct message" />
         </section>
       </div>
     </main>
