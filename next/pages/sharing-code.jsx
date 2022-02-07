@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import SingleLine from '../public/img/singleline.png';
 import Snippet from '../public/img/snippet.png';
 import CCSharing from '../public/img/cc_sharing.png';
@@ -19,13 +20,13 @@ export default function SharingCode() {
             If sharing a single line of code, wrap it in a pair of backticks ( `
             ):
           </p>
-          <img src={SingleLine} alt="single line code" />
+          <Image src={SingleLine} alt="single line code" />
 
           <p>
             For a larger chunk of code, wrap it in three backticks ( ` ) with
             the name of the language:
           </p>
-          <img src={Snippet} alt="multi line code" />
+          <Image src={Snippet} alt="multi line code" />
           <p>
             This has a number of benefits such as improved readability and
             syntax highlighting.
@@ -49,7 +50,7 @@ export default function SharingCode() {
               you can click on the Tools header on the navbar and export your
               code to a gist, which you can then share a link to:
             </p>
-            <img src={CCSharing} alt="Codecademy Gist" />
+            <Image src={CCSharing} alt="Codecademy Gist" />
           </section>
           <hr />
           <section className="container">

@@ -1,10 +1,10 @@
 export default function FAQ () {
   return (
-    <main class="has-text-centered">
-      <h1 class="is-size-1">Frequently Asked Questions</h1>
-      <section class="container has-background-white p-4">
-        <h2 class="is-size-2">Q: Is Codecademy Down?</h2>
-        <div class="content">
+    <main className="has-text-centered">
+      <h1 className="is-size-1">Frequently Asked Questions</h1>
+      <section className="container has-background-white p-4">
+        <h2 className="is-size-2">Q: Is Codecademy Down?</h2>
+        <div className="content">
           <p>
             <b>A:</b> Most issues connecting to codecademy are caused by a local
             issue. If you are struggling to connect, try to ensure you have a
@@ -26,7 +26,7 @@ export default function FAQ () {
         <hr />
 
         <h2>Q: How long does [x] course take?</h2>
-        <div class="content">
+        <div className="content">
           <p>
             <b>A:</b> Estimates for the lengths of all Codecademy courses should
             be displayed in the catalogue page for the relevant course. However,
@@ -46,11 +46,11 @@ export default function FAQ () {
 
         <hr />
 
-        <h2 class="is-size-2">
+        <h2 className="is-size-2">
           Q: I have an issue with my account (including billing issues such as
           refunds)
         </h2>
-        <div class="content">
+        <div className="content">
           <p>
             <b>A:</b> As we are a primarily community-run server we do not have
             the ability to assist with billing issues, sorry! You will need to
@@ -64,8 +64,8 @@ export default function FAQ () {
 
         <hr />
 
-        <h2 class="is-size-2">Q: Can someone review my code?</h2>
-        <div class="content">
+        <h2 className="is-size-2">Q: Can someone review my code?</h2>
+        <div className="content">
           <p>
             <b>A:</b> Absolutely, code reviews are a great learning opportunity
             and we thoroughly encourage them!

@@ -15,8 +15,8 @@ export const Header = () => {
     <header>
       <nav className="navbar has-shadow has-background-primary is-fixed-top">
         <div className="navbar-brand">
-          <Link className="navbar-item" href="/" onClick={handleNavigate}>
-            <a><Image src={logo} alt="The codecademy logo" className="logo" /></a>
+          <Link href="/" onClick={handleNavigate}>
+            <a className="navbar-item"><Image src={logo} alt="The codecademy logo" className="logo" /></a>
           </Link>
           {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
           <a
@@ -37,35 +37,32 @@ export const Header = () => {
           id="navbar-items"
         >
           <div className="navbar-end">
-            <Link className="navbar-item" href="/" onClick={handleNavigate}>
-              <a>Home</a>
+            <Link href="/" onClick={handleNavigate}>
+              <a className="navbar-item">Home</a>
             </Link>
-            <Link className="navbar-item" href="/staff" onClick={handleNavigate}>
-              <a>Server Staff</a>
+            <Link href="/staff" onClick={handleNavigate}>
+              <a className="navbar-item">Server Staff</a>
             </Link>
             <Link
-              className="navbar-item"
               href="/contact"
               onClick={handleNavigate}
             >
-              <a>Contact Us</a>
+              <a className="navbar-item">Contact Us</a>
             </Link>
             <Link
-              className="navbar-item"
               href="/sharing-code"
               onClick={handleNavigate}
             >
-              <a>Sharing Code</a>
+              <a className="navbar-item">Sharing Code</a>
             </Link>
             <Link
-              className="navbar-item"
               href="/getting-help"
               onClick={handleNavigate}
             >
-              <a>Getting Help</a>
+              <a className="navbar-item">Getting Help</a>
             </Link>
-            <Link className="navbar-item" href="/faq" onClick={handleNavigate}>
-              <a>FAQ</a>
+            <Link href="/faq" onClick={handleNavigate}>
+              <a className="navbar-item">FAQ</a>
             </Link>
           </div>
         </div>
