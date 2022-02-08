@@ -4,16 +4,16 @@ import CCSharing from '../assets/img/cc_sharing.png';
 
 export const SharingCode = () => {
   return (
-    <main class="has-text-centered">
-      <div class="container p-2">
-        <h1 class="is-size-1 mt-6">How to share code effectively:</h1>
-        <p class="mb-6">
+    <main className="has-text-centered">
+      <div className="container p-2">
+        <h1 className="is-size-1 mt-6">How to share code effectively:</h1>
+        <p className="mb-6">
           A (non-exhaustive) list of some of the preferred ways to share code.
         </p>
       </div>
-      <section class="container has-background-white mb-6 p-6">
+      <section className="container has-background-white mb-6 p-6">
         <div>
-          <h2 class="is-size-2 p-0">Small Snippets</h2>
+          <h2 className="is-size-2 p-0">Small Snippets</h2>
 
           <p>
             If sharing a single line of code, wrap it in a pair of backticks ( `
@@ -32,9 +32,9 @@ export const SharingCode = () => {
           </p>
         </div>
       </section>
-      <section class="container has-background-white mb-6 p-6">
+      <section className="container has-background-white mb-6 p-6">
         <div>
-          <h2 class="is-size-2 p-0">Larger Code Files</h2>
+          <h2 className="is-size-2 p-0">Larger Code Files</h2>
           <p>
             If you need to send a larger code snippet or a whole file, please
             avoid uploading it directly as a file (as file uploads are not
@@ -42,8 +42,8 @@ export const SharingCode = () => {
             listed below:
           </p>
           <hr />
-          <section class="container">
-            <h3 class="is-size-3">1. Exporting Code from Codecademy</h3>
+          <section className="container">
+            <h3 className="is-size-3">1. Exporting Code from Codecademy</h3>
             <p>
               If you need to export code directly from the Codecademy workspace,
               you can click on the Tools header on the navbar and export your
@@ -52,21 +52,21 @@ export const SharingCode = () => {
             <img src={CCSharing} alt="Codecademy Gist" />
           </section>
           <hr />
-          <section class="container">
-            <h3 class="is-size-3">2. Sharing off-platform code</h3>
+          <section className="container">
+            <h3 className="is-size-3">2. Sharing off-platform code</h3>
             <p>
               To share off platform code you can use a code-sharing site. Some
               of these are:
             </p>
-            <a class="site-link" href="https://gist.github.com/">
+            <a className="site-link" href="https://gist.github.com/">
               GitHub Gist
             </a>
             <br />
-            <a class="site-link" href="https://codepen.io/">
+            <a className="site-link" href="https://codepen.io/">
               Codepen
             </a>
             <br />
-            <a class="site-link" href="https://jsfiddle.net/">
+            <a className="site-link" href="https://jsfiddle.net/">
               JSFiddle
             </a>
             <p>
