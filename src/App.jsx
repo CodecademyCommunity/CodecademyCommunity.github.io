@@ -6,14 +6,14 @@ import { Staff } from './Views/Staff.jsx';
 import { FAQ } from './Views/FAQ.jsx';
 import { Header } from './Components/Header.jsx';
 import { Footer } from './Components/Footer.jsx';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 import './assets/sass/app.scss';
 
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -24,7 +24,7 @@ function App() {
           <Route path="/faq" element={<FAQ />} />
         </Routes>
         <Footer />
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
