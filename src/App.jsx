@@ -8,8 +8,6 @@ import { Header } from './Components/Header.jsx';
 import { Footer } from './Components/Footer.jsx';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 
-import './assets/sass/app.scss';
-
 function App() {
   return (
     <>
