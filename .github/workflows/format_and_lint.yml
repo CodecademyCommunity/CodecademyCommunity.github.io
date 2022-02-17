@@ -9,13 +9,15 @@ on:
     branches: [ main ]
   pull_request:
     branches: [ main ]
+  pull_request_target:
+    branches: [ main ]
 jobs:
   clean:
     runs-on: ubuntu-latest
     steps:
     - name: Check out branch (pull request)
       uses: actions/checkout@v2
-      if: github.event_name == 'pull_request'
+      if: github.event_name == 'pull_request_target' || github.event_name == 'pull_request'
       with:
         ref: ${{github.event.pull_request.head.ref}}
         repository: ${{github.event.pull_request.head.repo.full_name}}
