@@ -1,8 +1,9 @@
 import { useState } from 'react';
+import { StaffCardModal } from './StaffCardModal';
 
 export const StaffCard = (props) => {
-  const { name, pfp, role, bio } = props;
   const [isActive, setIsActive] = useState(false);
+  const { name, pfp, role } = props;
 
   return (
     <>
@@ -14,20 +15,11 @@ export const StaffCard = (props) => {
         </button>
       </div>
 
-      <div className={`${isActive ? 'is-active' : ''} modal`}>
-        <div
-          onClick={() => setIsActive(false)}
-          className="modal-background"
-        ></div>
-        <div className="modal-content">
-          <p>{bio}</p>
-        </div>
-        <button
-          onClick={() => setIsActive(false)}
-          className="modal-close is-large"
-          aria-label="close"
-        ></button>
-      </div>
+      <StaffCardModal
+        {...props}
+        isActive={isActive}
+        setIsActive={setIsActive}
+      />
     </>
   );
 };
