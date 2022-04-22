@@ -2,7 +2,7 @@
   "superadmins": [
     {
       "name": "brussels",
-      "pfp": "https://cdn.discordapp.com/avatars/608641641284370462/9c6698249645077608227af19f0673b2.webp?size=80",
+      "pfp": "https://cdn.discordapp.com/avatars/608641641284370462/3cc8f600c5503ee102de8dcaf138a0e4.webp",
       "bio": "Server co-founder, I also admin the codecademy subreddit and forums. In my spare time, I enjoy working absurdly late hours and cross country running."
     },
     {
@@ -85,6 +85,11 @@
       "name": "subz",
       "pfp": "https://cdn.discordapp.com/avatars/299986462315642881/78aed83a8a7b05a4f306fbb8f4366921.webp?size=128",
       "bio": "Code counselor"
+    },
+        {
+      "name": "Egoizumu",
+      "pfp": "https://cdn.discordapp.com/guilds/605859344243884081/users/197950963036717056/avatars/7c58b8c5a1b121a277ebe280cd684eb8.webp?size=128",
+      "bio": "I am a self taught front-end developer. I mainly work with React."
     }
   ]
 }
