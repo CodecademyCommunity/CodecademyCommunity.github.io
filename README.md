@@ -2,7 +2,16 @@ This is a Next.js port of Codecademy Community to try it out.
 
 ## Getting Started
 
-First, change directory into /next where to port is. Then run "npm install". Then do:
+First, change directory into /next where to port is. Then run "npm install".
+
+Create a file for env-variables called .env.local
+In that file enter the following environmental variables with your values for the Discord API:
+`
+BOT_TOKEN
+GUILD_ID
+`
+
+Then do:
 
 ```bash
 npm run dev
