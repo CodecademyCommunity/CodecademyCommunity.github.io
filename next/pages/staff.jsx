@@ -1,5 +1,4 @@
 import data from '../data/staff.json';
-import blankPfp from '../public/img/discord-blank2.png';
 import { StaffCard } from '../components/StaffCard';
 
 export default function Staff() {
@@ -61,7 +60,7 @@ export default function Staff() {
           <StaffCard
             key="tgrtim"
             name="tgrtim"
-            pfp={blankPfp}
+            pfp="/img/discord-blank2.png"
             role="mod"
             bio="Community staff member"
           />
