@@ -64,6 +64,9 @@ export const Header = () => {
             <Link href="/faq" onClick={handleNavigate}>
               <a className="navbar-item">FAQ</a>
             </Link>
+            <Link href="/discord-stats" onClick={handleNavigate}>
+              <a className="navbar-item">Discord Stats</a>
+            </Link>
           </div>
         </div>
       </nav>
