@@ -7,7 +7,7 @@ export default function DiscordStats() {
         try {
           const res = await fetch(`/api/discord-stats`);
           const data = await res.json();
-          setMemberCount(data.approximate_member_count);
+          setMemberCount(data.memberCount);
           return data;
         } catch(err) {
           console.error(err);
