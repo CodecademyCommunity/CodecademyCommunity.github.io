@@ -66,6 +66,9 @@ export const Header = () => {
             <Link className="navbar-item" to="/faq" onClick={handleNavigate}>
               FAQ
             </Link>
+            <Link className="navbar-item" to="/discord" onClick={handleNavigate}>
+              Discord Stats
+            </Link>
           </div>
         </div>
       </nav>

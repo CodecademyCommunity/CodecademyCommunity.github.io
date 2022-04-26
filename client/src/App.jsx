@@ -4,6 +4,7 @@ import { SharingCode } from './Views/SharingCode.jsx';
 import { GettingHelp } from './Views/GettingHelp.jsx';
 import { Staff } from './Views/Staff.jsx';
 import { FAQ } from './Views/FAQ.jsx';
+import { Countdown } from './Views/Countdown.jsx';
 import { Header } from './Components/Header.jsx';
 import { Footer } from './Components/Footer.jsx';
 import { HashRouter, Routes, Route } from 'react-router-dom';
@@ -20,6 +21,7 @@ function App() {
           <Route path="/sharing-code" element={<SharingCode />} />
           <Route path="/getting-help" element={<GettingHelp />} />
           <Route path="/faq" element={<FAQ />} />
+          <Route path="/discord" element={<Countdown />} />
         </Routes>
         <Footer />
       </HashRouter>
