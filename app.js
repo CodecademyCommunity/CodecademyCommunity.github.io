@@ -5,8 +5,6 @@ const logger = require('morgan');
 
 const isProduction = process.env.NODE_ENV === 'production';
 
-const discordRouter = require('./routes/discord');
-
 const app = express();
 
 app.use(logger('dev'));
@@ -20,7 +18,5 @@ if (isProduction) {
       res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
     });
 }
-
-app.use('/api/discord', discordRouter);
 
 module.exports = app;

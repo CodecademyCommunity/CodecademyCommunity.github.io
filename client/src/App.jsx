@@ -8,8 +8,21 @@ import { Countdown } from './Views/Countdown.jsx';
 import { Header } from './Components/Header.jsx';
 import { Footer } from './Components/Footer.jsx';
 import { HashRouter, Routes, Route } from 'react-router-dom';
+import { io } from "socket.io-client";
+import { useEffect, useState, useRef } from 'react';
 
 function App() {
+  const [memberCount, setMemberCount] = useState(null);
+  const socket = useRef();
+
+  useEffect(() => {
+    socket.current = io();
+    socket.current.on('discord data', (message) => {
+      setMemberCount(message.memberCount);
+    });
+    return () => { socket.current?.disconnect(); };
+  }, []);
+
   return (
     <>
       <HashRouter>
@@ -21,7 +34,7 @@ function App() {
           <Route path="/sharing-code" element={<SharingCode />} />
           <Route path="/getting-help" element={<GettingHelp />} />
           <Route path="/faq" element={<FAQ />} />
-          <Route path="/discord" element={<Countdown />} />
+          <Route path="/discord" element={<Countdown memberCount={memberCount} />} />
         </Routes>
         <Footer />
       </HashRouter>
