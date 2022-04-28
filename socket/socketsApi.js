@@ -37,7 +37,6 @@ io.on('connection', async function(socket){
 });
 
 socketApi.sendNotification = function(count) {
-    console.log('Emitting from server');
     io.sockets.emit('discord data', {memberCount: count});
 }
 
