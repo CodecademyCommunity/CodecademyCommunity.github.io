@@ -1,10 +1,22 @@
 {
   "name": "codecademycommunity.github.io",
-  "version": "0.0.0",
+  "version": "1.1.0",
   "private": true,
+  "description": "The Codecademy Community website",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodecademyCommunity/CodecademyCommunity.github.io.git"
+  },
+  "homepage": "https://codecademycommunity.github.io/",
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CodecademyCommunity/CodecademyCommunity.github.io/issues"
+  },
   "scripts": {
     "dev": "concurrently \"npm start\" \"cd ./client && npm start\"",
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "prepare": "husky install"
   },
   "dependencies": {
     "axios": "^0.27.0",
@@ -15,5 +27,20 @@
     "morgan": "~1.9.1",
     "node-cron": "^3.0.0",
     "socket.io": "^4.5.0"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^8.3.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.3",
+    "prettier": "2.5.1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "prettier"
+    ]
+  },
+  "lint-staged": {
+    "*.{js,jsx,scss,css,md}": "prettier --write",
+    "*.{js,jsx}": "eslint --cache --fix"
   }
 }
