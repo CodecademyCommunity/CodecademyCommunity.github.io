@@ -6,7 +6,10 @@ import giphy2 from '../assets/img/giphy2.gif';
 function calculateGoal(memberCount) {
   const previousGoal = Math.floor(memberCount / 10000) * 10000;
   const newGoal = Math.ceil(memberCount / 10000) * 10000;
-  return memberCount > previousGoal + 100 ? newGoal : previousGoal;
+  return Math.max(
+    1000,
+    memberCount > previousGoal + 100 ? newGoal : previousGoal
+  );
 }
 
 function kFormatter(num) {
