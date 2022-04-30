@@ -1,4 +1,3 @@
-import './Countdown.css';
 import giphy1 from '../assets/img/giphy1.gif';
 import giphy2 from '../assets/img/giphy2.gif';
 
@@ -9,10 +8,10 @@ export const Countdown = ({memberCount}) => {
       return (
         <main className="container has-text-centered">
             <h1 className="is-size-1">Codecademy Discord Server</h1>
-            <h2 className="is-size-2">Count to 60k:</h2>
+            <h2 className="is-size-2" id="count-to-header">Count to 60k:</h2>
 
             { memberCount >= 60000 &&
-            <figure className="image-is-square">
+            <figure className="image-is-square" id="gif">
               <img src={images[Math.floor(Math.random() * images.length)]}/>
             </figure>
             }

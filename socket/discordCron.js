@@ -6,10 +6,14 @@ const { fetchGuildData } = require('../helpers/fetchGuildData');
  */
 
 module.exports = async (io) => {
+
+  let counter = 0;
+
   cron.schedule('* * * * *', async () => {
     try {
-      const memberCount = await fetchGuildData();
-      io.sockets.emit('discord data', { memberCount });
+      counter++;
+      const memberCount = await fetchGuildData() + counter;
+      io.sockets.emit('discord data', { memberCount: memberCount + 60000 });
     } catch (err) {
       console.error(err);
     }
