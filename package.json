@@ -37,7 +37,10 @@
   "eslintConfig": {
     "extends": [
       "prettier"
-    ]
+    ],
+    "parserOptions": {
+      "ecmaVersion": "latest"
+    }
   },
   "lint-staged": {
     "*.{js,jsx,scss,css,md}": "prettier --write",

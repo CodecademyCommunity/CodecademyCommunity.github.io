@@ -4,9 +4,11 @@
  * Module dependencies.
  */
 
+require('dotenv').config();
 const app = require('../app');
 const debug = require('debug')('codecademycommunity.github.io:server');
 const http = require('http');
+const { Server } = require("socket.io");
 
 /**
  * Get port from environment and store in Express.
@@ -24,9 +26,14 @@ const server = http.createServer(app);
 /**
  * Socket.io
  */
- const socketApi = require('../socket/socketsApi');
- const io = socketApi.io;
- io.attach(server);
+const io = new Server(server);
+
+const startDiscordCron = require("../socket/discordCron");
+startDiscordCron(io);
+
+const onConnection = require('../socket/socketHandler');
+io.on("connection", onConnection);
+
 
 /**
  * Listen on provided port, on all network interfaces.
