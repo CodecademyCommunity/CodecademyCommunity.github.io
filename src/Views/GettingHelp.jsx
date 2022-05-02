@@ -1,7 +1,7 @@
 export const GettingHelp = () => {
   return (
     <main className="container has-text-centered">
-      <h1 className="is-size-1">How to get Coding Help</h1>
+      <h1 className="is-size-1 is-size-2-mobile">How to get Coding Help</h1>
       <p className="p-3">
         This is a guide on how to get help when you run into a problem while
         coding.
@@ -14,7 +14,9 @@ export const GettingHelp = () => {
       </p>
       <article className="container has-background-white p-6 mt-4">
         <section>
-          <h2 className="is-size-2">1. Let us see your code</h2>
+          <h2 className="is-size-2 is-size-3-mobile">
+            1. Let us see your code
+          </h2>
           <div className="content">
             <p>
               We probably cannot help you with your problem if we cannot see
@@ -56,7 +58,9 @@ export const GettingHelp = () => {
         </section>
         <hr />
         <section>
-          <h2 className="is-size-2">2. Tell us your problem</h2>
+          <h2 className="is-size-2 is-size-3-mobile">
+            2. Tell us your problem
+          </h2>
           <div className="content">
             <p>
               If you have a bug in your code, tell us what it is. Give as much
@@ -67,7 +71,9 @@ export const GettingHelp = () => {
         </section>
         <hr />
         <section>
-          <h2 className="is-size-2">3. Tell us what you have tried</h2>
+          <h2 className="is-size-2 is-size-3-mobile">
+            3. Tell us what you have tried
+          </h2>
           <div className="content">
             <p>
               Community members have better success with troubleshooting when
@@ -86,7 +92,7 @@ export const GettingHelp = () => {
         </section>
         <hr />
         <section>
-          <h2 className="is-size-2">
+          <h2 className="is-size-2 is-size-3-mobile">
             4. Let us know where your task comes from
           </h2>
           <div className="content">
@@ -108,7 +114,7 @@ export const GettingHelp = () => {
         </section>
         <hr />
         <section>
-          <h2 className="is-size-2">
+          <h2 className="is-size-2 is-size-3-mobile">
             5. Be aware of the following super handy resources to catch simple
             errors
           </h2>

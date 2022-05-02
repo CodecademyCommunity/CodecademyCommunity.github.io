@@ -6,14 +6,16 @@ export const SharingCode = () => {
   return (
     <main className="has-text-centered">
       <div className="container p-2">
-        <h1 className="is-size-1 mt-6">How to share code effectively:</h1>
+        <h1 className="is-size-1 is-size-2-mobile mt-6">
+          How to share code effectively:
+        </h1>
         <p className="mb-6">
           A (non-exhaustive) list of some of the preferred ways to share code.
         </p>
       </div>
       <section className="container has-background-white mb-6 p-6">
         <div>
-          <h2 className="is-size-2 p-0">Small Snippets</h2>
+          <h2 className="is-size-2 is-size-3-mobile p-0">Small Snippets</h2>
 
           <p>
             If sharing a single line of code, wrap it in a pair of backticks ( `
@@ -34,7 +36,7 @@ export const SharingCode = () => {
       </section>
       <section className="container has-background-white mb-6 p-6">
         <div>
-          <h2 className="is-size-2 p-0">Larger Code Files</h2>
+          <h2 className="is-size-2 is-size-3-mobile p-0">Larger Code Files</h2>
           <p>
             If you need to send a larger code snippet or a whole file, please
             avoid uploading it directly as a file (as file uploads are not

@@ -1,9 +1,9 @@
 export const FAQ = () => {
   return (
     <main className="has-text-centered">
-      <h1 className="is-size-1">Frequently Asked Questions</h1>
+      <h1 className="is-size-1 is-size-2-mobile">Frequently Asked Questions</h1>
       <section className="container has-background-white p-4">
-        <h2 className="is-size-2">Q: Is Codecademy Down?</h2>
+        <h2 className="is-size-2 is-size-3-mobile">Q: Is Codecademy Down?</h2>
         <div className="content">
           <p>
             <b>A:</b> Most issues connecting to codecademy are caused by a local
@@ -25,7 +25,9 @@ export const FAQ = () => {
 
         <hr />
 
-        <h2>Q: How long does [x] course take?</h2>
+        <h2 className="is-size-2 is-size-3-mobile">
+          Q: How long does [x] course take?
+        </h2>
         <div className="content">
           <p>
             <b>A:</b> Estimates for the lengths of all Codecademy courses should
@@ -46,7 +48,7 @@ export const FAQ = () => {
 
         <hr />
 
-        <h2 className="is-size-2">
+        <h2 className="is-size-2 is-size-3-mobile">
           Q: I have an issue with my account (including billing issues such as
           refunds)
         </h2>
@@ -64,7 +66,9 @@ export const FAQ = () => {
 
         <hr />
 
-        <h2 className="is-size-2">Q: Can someone review my code?</h2>
+        <h2 className="is-size-2 is-size-3-mobile">
+          Q: Can someone review my code?
+        </h2>
         <div className="content">
           <p>
             <b>A:</b> Absolutely, code reviews are a great learning opportunity

@@ -5,10 +5,12 @@ import { StaffCard } from '../Components/StaffCard';
 export const Staff = () => {
   return (
     <main className="has-text-centered">
-      <h1 className="is-size-1 pagetitle">Codecademy Community Server Staff</h1>
+      <h1 className="is-size-1 is-size-2-mobile pagetitle">
+        Codecademy Community Server Staff
+      </h1>
       <p className="is-size-4 mb-3">Meet our server staff!</p>
       <section className="container has-background-white mb-6 p-3">
-        <h2 className="is-size-2">Admins</h2>
+        <h2 className="is-size-2 is-size-3-mobile">Admins</h2>
         <p>
           Admins are the heads of our staff and the people who manage how the
           group is run.
@@ -39,7 +41,7 @@ export const Staff = () => {
         </div>
       </section>
       <section className="container has-background-white mb-6 p-3">
-        <h2 className="is-size-2">Moderators</h2>
+        <h2 className="is-size-2 is-size-3-mobile">Moderators</h2>
         <p>
           Moderators comprise our main staff team and aim to keep the peace and
           happiness in our community.
@@ -68,7 +70,7 @@ export const Staff = () => {
         </div>
       </section>
       <section className="container has-background-white mb-6 p-3">
-        <h2 className="is-size-2">Code Counselors</h2>
+        <h2 className="is-size-2 is-size-3-mobile">Code Counselors</h2>
         <p>
           Code Counselors are members of the community who have been recognised
           as being the most active, friendly and helpful.

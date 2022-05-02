@@ -8,7 +8,7 @@ export const Home = () => {
       <main>
         <section className="section has-background-white">
           <div className="container">
-            <h2 className="is-size-1">Codecademy Community</h2>
+            <h2 className="is-size-1 is-size-2-mobile">Codecademy Community</h2>
             <p className="descriptiontext">
               Welcome to the Codecademy Discord Community! This is website of
               the official Codecademy Discord, run by volunteer moderators and
@@ -29,7 +29,7 @@ export const Home = () => {
           </div>
         </section>
         <section className="pagelist">
-          <h2 className="is-size-2 ">Pages</h2>
+          <h2 className="is-size-2 is-size-3-mobile">Pages</h2>
           <div className="pagecontainer tiles is-ancestor">
             <div className="tile is-parent">
               <Link
