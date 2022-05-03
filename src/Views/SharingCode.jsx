@@ -6,7 +6,7 @@ export const SharingCode = () => {
   return (
     <main className="has-text-centered">
       <div className="container p-2">
-        <h1 className="is-size-1 is-size-2-mobile mt-6">
+        <h1 className="is-size-1 is-size-2-mobile">
           How to share code effectively:
         </h1>
         <p className="mb-6">
