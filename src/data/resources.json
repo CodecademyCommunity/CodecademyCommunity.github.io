@@ -1,196 +1,196 @@
 {
-   "resources": [
-       {
-           "title": "Front-end Developer Handbook 2019",
-           "author": "Cody Lindley",
-           "url": "https://frontendmasters.com/guides/front-end-handbook/2019/#4.8",
-           "tags": ["programming","frontend"]
-       },
-       {
-        "title": "Code Review Developer Guide",
-        "author": "",
-        "url": "https://google.github.io/eng-practices/review/",
-        "tags": ["general", "Code Review"]
+  "resources": [
+    {
+      "title": "Front-end Developer Handbook 2019",
+      "author": "Cody Lindley",
+      "url": "https://frontendmasters.com/guides/front-end-handbook/2019/#4.8",
+      "tags": ["programming", "frontend"]
     },
     {
-        "title": "Low Level JavaScript",
-        "author": "",
-        "url": "https://www.youtube.com/channel/UC56l7uZA209tlPTVOJiJ8Tw/",
-        "tags": ["video", "JavaScript", "inDepth"]
+      "title": "Code Review Developer Guide",
+      "author": "",
+      "url": "https://google.github.io/eng-practices/review/",
+      "tags": ["general", "Code Review"]
     },
     {
-        "title": "Crash Course Computer Science",
-        "author": "",
-        "url": "https://www.youtube.com/watch?v=tpIctyqH29Q&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo",
-        "tags": ["video", "Computer Science"]
+      "title": "Low Level JavaScript",
+      "author": "",
+      "url": "https://www.youtube.com/channel/UC56l7uZA209tlPTVOJiJ8Tw/",
+      "tags": ["video", "JavaScript", "inDepth"]
     },
     {
-        "title": "The 10 Best Coding Challenge Websites for 2018",
-        "author": "Daniel Borowski",
-        "url": "https://medium.com/coderbyte/the-10-best-coding-challenge-websites-for-2018-12b57645b654",
-        "tags": ["general", "Code Challenge", "programming", "master list"]
+      "title": "Crash Course Computer Science",
+      "author": "",
+      "url": "https://www.youtube.com/watch?v=tpIctyqH29Q&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo",
+      "tags": ["video", "Computer Science"]
     },
     {
-        "title": "The 100 Most Popular Free Online Courses of 2019",
-        "author": "Dhawal Shah",
-        "url": "https://www.classcentral.com/report/100-most-popular-online-courses-2019/?utm_medium=email&utm_source=other&utm_campaign=opencourse.GdeNrll1EeSROyIACtiVvg.announcements~opencourse.GdeNrll1EeSROyIACtiVvg.qTOaasuISNOe24PZrleSRw",
-        "tags": ["article", "courses", "master list"]
+      "title": "The 10 Best Coding Challenge Websites for 2018",
+      "author": "Daniel Borowski",
+      "url": "https://medium.com/coderbyte/the-10-best-coding-challenge-websites-for-2018-12b57645b654",
+      "tags": ["general", "Code Challenge", "programming", "master list"]
     },
     {
-        "title": "Awesome Discord Communities",
-        "author": "",
-        "url": "https://github.com/mhxion/awesome-discord-communities",
-        "tags": ["Github Repo", "communities"]
+      "title": "The 100 Most Popular Free Online Courses of 2019",
+      "author": "Dhawal Shah",
+      "url": "https://www.classcentral.com/report/100-most-popular-online-courses-2019/?utm_medium=email&utm_source=other&utm_campaign=opencourse.GdeNrll1EeSROyIACtiVvg.announcements~opencourse.GdeNrll1EeSROyIACtiVvg.qTOaasuISNOe24PZrleSRw",
+      "tags": ["article", "courses", "master list"]
     },
     {
-        "title": "The Missing Semester of Your CS Education",
-        "author": "",
-        "url": "https://missing.csail.mit.edu/",
-        "tags": ["article", "Computer Science", "master list"]
+      "title": "Awesome Discord Communities",
+      "author": "",
+      "url": "https://github.com/mhxion/awesome-discord-communities",
+      "tags": ["Github Repo", "communities"]
     },
     {
-        "title": "Python Illustrated",
-        "author": "",
-        "url": "https://drive.google.com/file/d/1l2QqzHdfAmrQxy3aPAzy6UsL8Ol36hHZ/view",
-        "tags": ["programming", "Python"]
+      "title": "The Missing Semester of Your CS Education",
+      "author": "",
+      "url": "https://missing.csail.mit.edu/",
+      "tags": ["article", "Computer Science", "master list"]
     },
     {
-        "title": "Python 3 Sandbox & Cheat Sheet",
-        "author": "",
-        "url": "https://github.com/Richard-Burd/python-3-sandbox",
-        "tags": ["Github Repo", "programming", "Python"]
+      "title": "Python Illustrated",
+      "author": "",
+      "url": "https://drive.google.com/file/d/1l2QqzHdfAmrQxy3aPAzy6UsL8Ol36hHZ/view",
+      "tags": ["programming", "Python"]
     },
     {
-        "title": "Git cherry pick tutorial. How to use git cherry-pick.",
-        "author": "",
-        "url": "https://www.youtube.com/watch?v=wIY824wWpu4",
-        "tags": ["video", "Git"]
+      "title": "Python 3 Sandbox & Cheat Sheet",
+      "author": "",
+      "url": "https://github.com/Richard-Burd/python-3-sandbox",
+      "tags": ["Github Repo", "programming", "Python"]
     },
     {
-        "title": "Cheatsheets for Matplotlib users",
-        "author": "",
-        "url": "https://github.com/matplotlib/cheatsheets#cheatsheets",
-        "tags": ["Github Repo", "Data Science", "Matplotlib"]
+      "title": "Git cherry pick tutorial. How to use git cherry-pick.",
+      "author": "",
+      "url": "https://www.youtube.com/watch?v=wIY824wWpu4",
+      "tags": ["video", "Git"]
     },
     {
-        "title": "Discord Developer Portal — API Docs for Bots and Developers",
-        "author": "",
-        "url": "https://discord.com/developers/docs/topics/community-resources",
-        "tags": ["Discord Bot", "API"]
+      "title": "Cheatsheets for Matplotlib users",
+      "author": "",
+      "url": "https://github.com/matplotlib/cheatsheets#cheatsheets",
+      "tags": ["Github Repo", "Data Science", "Matplotlib"]
     },
     {
-        "title": "Don't ask to ask, just ask",
-        "author": "",
-        "url": "https://dontasktoask.com/",
-        "tags": ["article", "general"]
+      "title": "Discord Developer Portal — API Docs for Bots and Developers",
+      "author": "",
+      "url": "https://discord.com/developers/docs/topics/community-resources",
+      "tags": ["Discord Bot", "API"]
     },
     {
-        "title": "Regex Crossword",
-        "author": "",
-        "url": "https://regexcrossword.com/",
-        "tags": ["practice", "regex", "Regular Expression"]
+      "title": "Don't ask to ask, just ask",
+      "author": "",
+      "url": "https://dontasktoask.com/",
+      "tags": ["article", "general"]
     },
     {
-        "title": "How do computers read code?",
-        "author": "",
-        "url": "https://www.youtube.com/watch?v=QXjU9qTsYCc",
-        "tags": ["video", "Computer Science", "programming", "Assembly"]
+      "title": "Regex Crossword",
+      "author": "",
+      "url": "https://regexcrossword.com/",
+      "tags": ["practice", "regex", "Regular Expression"]
     },
     {
-        "title": "Finding ways to contribute to open source on GitHub",
-        "author": "GitHub Docs",
-        "url": "https://docs.github.com/en/get-started/exploring-projects-on-github/finding-ways-to-contribute-to-open-source-on-github",
-        "tags": ["article", "Open Source", "GitHub"]
+      "title": "How do computers read code?",
+      "author": "",
+      "url": "https://www.youtube.com/watch?v=QXjU9qTsYCc",
+      "tags": ["video", "Computer Science", "programming", "Assembly"]
     },
     {
-        "title": "Online Interactive CSS Cheat Sheet",
-        "author": "",
-        "url": "https://htmlcheatsheet.com/css/",
-        "tags": ["HTML", "CSS"]
+      "title": "Finding ways to contribute to open source on GitHub",
+      "author": "GitHub Docs",
+      "url": "https://docs.github.com/en/get-started/exploring-projects-on-github/finding-ways-to-contribute-to-open-source-on-github",
+      "tags": ["article", "Open Source", "GitHub"]
     },
     {
-        "title": "Developer Roadmaps",
-        "author": "",
-        "url": "https://roadmap.sh/",
-        "tags": ["programming", "Career"]
+      "title": "Online Interactive CSS Cheat Sheet",
+      "author": "",
+      "url": "https://htmlcheatsheet.com/css/",
+      "tags": ["HTML", "CSS"]
     },
     {
-        "title": "Edabit",
-        "author": "",
-        "url": "https://edabit.com/",
-        "tags": ["Courses", "Code Challenge"]
+      "title": "Developer Roadmaps",
+      "author": "",
+      "url": "https://roadmap.sh/",
+      "tags": ["programming", "Career"]
     },
     {
-        "title": "Codewars",
-        "author": "",
-        "url": "https://www.codewars.com/",
-        "tags": ["Code Challenge", "Algorithm"]
+      "title": "Edabit",
+      "author": "",
+      "url": "https://edabit.com/",
+      "tags": ["Courses", "Code Challenge"]
     },
     {
-        "title": "Frontend Mentor",
-        "author": "",
-        "url": "https://www.frontendmentor.io/",
-        "tags": ["frontend", "Code Challenge", "Portfolio Projects"]
+      "title": "Codewars",
+      "author": "",
+      "url": "https://www.codewars.com/",
+      "tags": ["Code Challenge", "Algorithm"]
     },
     {
-        "title": "Exercism",
-        "author": "",
-        "url": "https://exercism.org/",
-        "tags": ["Programming", "Code Challenge"]
+      "title": "Frontend Mentor",
+      "author": "",
+      "url": "https://www.frontendmentor.io/",
+      "tags": ["frontend", "Code Challenge", "Portfolio Projects"]
     },
     {
-        "title": "The 2020 Scrum Guide™",
-        "author": "",
-        "url": "https://scrumguides.org/scrum-guide.html",
-        "tags": ["Scrum", "Software Engineer"]
+      "title": "Exercism",
+      "author": "",
+      "url": "https://exercism.org/",
+      "tags": ["Programming", "Code Challenge"]
     },
     {
-        "title": "GitHub Student Developer Pack",
-        "author": "GitHub",
-        "url": "https://education.github.com/pack",
-        "tags": ["GitHub", "Free Resource", "Student"]
+      "title": "The 2020 Scrum Guide™",
+      "author": "",
+      "url": "https://scrumguides.org/scrum-guide.html",
+      "tags": ["Scrum", "Software Engineer"]
     },
     {
-        "title": "Sass Guidelines",
-        "author": "Kitty Giraudel",
-        "url": "https://sass-guidelin.es/",
-        "tags": ["CSS", "Sass", "Best Practice"]
+      "title": "GitHub Student Developer Pack",
+      "author": "GitHub",
+      "url": "https://education.github.com/pack",
+      "tags": ["GitHub", "Free Resource", "Student"]
     },
     {
-        "title": "Get your work recognized: write a brag document",
-        "author": "Julia Evans",
-        "url": "https://jvns.ca/blog/brag-documents/",
-        "tags": ["general", "Career"]
+      "title": "Sass Guidelines",
+      "author": "Kitty Giraudel",
+      "url": "https://sass-guidelin.es/",
+      "tags": ["CSS", "Sass", "Best Practice"]
     },
     {
-        "title": "Git Cheat sheet",
-        "author": "",
-        "url": "https://education.github.com/git-cheat-sheet-education.pdf",
-        "tags": ["GitHub", "Git"]
+      "title": "Get your work recognized: write a brag document",
+      "author": "Julia Evans",
+      "url": "https://jvns.ca/blog/brag-documents/",
+      "tags": ["general", "Career"]
     },
     {
-        "title": "Free Programming Books",
-        "author": "EbookFoundation",
-        "url": "https://github.com/EbookFoundation/free-programming-books",
-        "tags": ["GitHub Repo", "Free Resource"]
+      "title": "Git Cheat sheet",
+      "author": "",
+      "url": "https://education.github.com/git-cheat-sheet-education.pdf",
+      "tags": ["GitHub", "Git"]
     },
     {
-        "title": "Markdown Tutorial",
-        "author": "",
-        "url": "https://commonmark.org/help/tutorial/",
-        "tags": ["markdown"]
+      "title": "Free Programming Books",
+      "author": "EbookFoundation",
+      "url": "https://github.com/EbookFoundation/free-programming-books",
+      "tags": ["GitHub Repo", "Free Resource"]
     },
     {
-        "title": "How to Contribute to Open Source",
-        "author": "",
-        "url": "https://opensource.guide/how-to-contribute/",
-        "tags": ["Open Source"]
+      "title": "Markdown Tutorial",
+      "author": "",
+      "url": "https://commonmark.org/help/tutorial/",
+      "tags": ["markdown"]
     },
     {
-        "title": "clean code javascript",
-        "author": "Ryan McDermott",
-        "url": "https://github.com/ryanmcdermott/clean-code-javascript",
-        "tags": ["Programming", "JavaScript", "Best Practice"]
+      "title": "How to Contribute to Open Source",
+      "author": "",
+      "url": "https://opensource.guide/how-to-contribute/",
+      "tags": ["Open Source"]
+    },
+    {
+      "title": "clean code javascript",
+      "author": "Ryan McDermott",
+      "url": "https://github.com/ryanmcdermott/clean-code-javascript",
+      "tags": ["Programming", "JavaScript", "Best Practice"]
     }
-   ]
+  ]
 }
