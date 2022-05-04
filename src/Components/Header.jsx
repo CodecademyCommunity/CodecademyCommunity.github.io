@@ -63,6 +63,13 @@ export const Header = () => {
             >
               Getting Help
             </Link>
+            <Link
+              className="navbar-item"
+              to="/resources"
+              onClick={handleNavigate}
+            >
+              Resources
+            </Link>
             <Link className="navbar-item" to="/faq" onClick={handleNavigate}>
               FAQ
             </Link>
