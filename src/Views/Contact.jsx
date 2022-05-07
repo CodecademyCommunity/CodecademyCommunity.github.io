@@ -6,13 +6,13 @@ export const Contact = () => {
   return (
     <main className="container has-text-centered">
       <h1 className="is-size-1 is-size-2-mobile">Contact Us</h1>
-      <p className="m-2">
+      <p className="m-2 p-2">
         If there is an issue that requires staff attention, please do not ping
         or direct message a staff member to report it as this is against server
         rules and may result in a warn. Instead please use the ModMail bot with
         the method below to bring any issues to the mod team's attention.
       </p>
-      <p className="mb-5">
+      <p className="mb-5 mx-2 p-2">
         {' '}
         If the ModMail bot is offline and you need to report a serious violation
         of server rules, you can ping an online Admin or Moderator to bring our

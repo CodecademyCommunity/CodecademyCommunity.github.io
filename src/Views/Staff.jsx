@@ -8,7 +8,7 @@ export const Staff = () => {
       <h1 className="is-size-1 is-size-2-mobile pagetitle">
         Codecademy Community Server Staff
       </h1>
-      <p className="is-size-4 mb-3">Meet our server staff!</p>
+      <p className="is-size-4 m-3">Meet our server staff!</p>
       <section className="container has-background-white mb-6 p-3">
         <h2 className="is-size-2 is-size-3-mobile">Admins</h2>
         <p>

@@ -1,7 +1,9 @@
 export const FAQ = () => {
   return (
     <main className="has-text-centered">
-      <h1 className="is-size-1 is-size-2-mobile">Frequently Asked Questions</h1>
+      <h1 className="is-size-1 is-size-2-mobile mb-3">
+        Frequently Asked Questions
+      </h1>
       <section className="container has-background-white p-4">
         <h2 className="is-size-2 is-size-3-mobile">Q: Is Codecademy Down?</h2>
         <div className="content">

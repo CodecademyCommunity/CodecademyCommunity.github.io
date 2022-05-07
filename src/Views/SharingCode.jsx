@@ -9,7 +9,7 @@ export const SharingCode = () => {
         <h1 className="is-size-1 is-size-2-mobile">
           How to share code effectively:
         </h1>
-        <p className="mb-6">
+        <p className="mb-4 mt-2">
           A (non-exhaustive) list of some of the preferred ways to share code.
         </p>
       </div>
