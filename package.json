@@ -15,14 +15,13 @@
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
-    "@testing-library/react": "^12.1.2",
-    "@testing-library/user-event": "^13.5.0",
+    "@testing-library/user-event": "^14.1.1",
     "bulma": "^0.9.3",
     "gh-pages": "^3.2.3",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
     "react-router-dom": "^6.2.1",
-    "react-scripts": "5.0.0",
+    "react-scripts": "5.0.1",
     "sass": "^1.49.7",
     "web-vitals": "^2.1.4"
   },
@@ -54,6 +53,7 @@
     ]
   },
   "devDependencies": {
+    "@testing-library/react": "^13.1.1",
     "eslint-config-prettier": "^8.3.0",
     "husky": "^7.0.4",
     "lint-staged": "^12.3.3",
