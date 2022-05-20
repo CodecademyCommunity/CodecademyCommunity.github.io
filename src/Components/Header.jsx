@@ -1,9 +1,30 @@
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../assets/img/codecademy_logo.png';
 
+function useOutsideCallback(ref, callback) {
+  useEffect(() => {
+    /**
+     * Run callback if clicked on outside of element
+     */
+    function handleClickOutside(event) {
+      if (ref.current && !ref.current.contains(event.target)) {
+        callback();
+      }
+    }
+    // Bind the event listener
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      // Unbind the event listener on clean up
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [ref, callback]);
+}
+
 export const Header = () => {
   const [isActive, setIsActive] = useState(false);
+  const wrapperRef = useRef(null);
+  useOutsideCallback(wrapperRef, () => setIsActive(false));
 
   function handleNavigate() {
     setIsActive(false);
@@ -11,7 +32,7 @@ export const Header = () => {
   }
 
   return (
-    <header>
+    <header ref={wrapperRef}>
       <nav className="navbar has-shadow has-background-primary is-fixed-top">
         <div className="navbar-brand">
           <Link className="navbar-item" to="/" onClick={handleNavigate}>
