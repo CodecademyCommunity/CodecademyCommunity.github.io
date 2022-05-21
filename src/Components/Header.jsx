@@ -1,30 +1,12 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../assets/img/codecademy_logo.png';
-
-function useOutsideCallback(ref, callback) {
-  useEffect(() => {
-    /**
-     * Run callback if clicked on outside of element
-     */
-    function handleClickOutside(event) {
-      if (ref.current && !ref.current.contains(event.target)) {
-        callback();
-      }
-    }
-    // Bind the event listener
-    document.addEventListener('mousedown', handleClickOutside);
-    return () => {
-      // Unbind the event listener on clean up
-      document.removeEventListener('mousedown', handleClickOutside);
-    };
-  }, [ref, callback]);
-}
+import useCloseBurgerMenu from '../hooks/useCloseBurgerMenu';
 
 export const Header = () => {
   const [isActive, setIsActive] = useState(false);
   const wrapperRef = useRef(null);
-  useOutsideCallback(wrapperRef, () => setIsActive(false));
+  useCloseBurgerMenu(wrapperRef, () => setIsActive(false));
 
   function handleNavigate() {
     setIsActive(false);
