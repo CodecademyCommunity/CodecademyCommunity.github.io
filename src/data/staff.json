@@ -90,7 +90,6 @@
       "name": "Alex C",
       "pfp": "https://cdn.discordapp.com/avatars/393152368318873609/7984efe0af0d2e10ea52ec5e6898f71e.png?size=1024",
       "bio": "Code counselor"
-
     }
   ],
   "emeritus": [
@@ -112,6 +111,7 @@
     {
       "name": "Vestige (SelectAll)",
       "pfp": "https://cdn.discordapp.com/avatars/139070598109331456/95fd28c353b3440d32cb2ea23556f40b.png?size=1024",
-      "bio": "Moderator Emeritus"    }
+      "bio": "Moderator Emeritus"
+    }
   ]
 }
