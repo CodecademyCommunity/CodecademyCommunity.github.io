@@ -32,19 +32,27 @@ p {
 }
 
 .super-admin {
-  color: purple;
+  color: #f00;
 }
 
 .admin {
-  color: red;
+  color: #ff7b00;
 }
 
 .mod {
-  color: goldenrod;
+  color: #ffc000;
 }
 
 .coco {
-  color: orange;
+  color: rgb(
+    160,
+    160,
+    20
+  ); /* Not actually CoCo colour, had to be darkend for contrast */
+}
+
+.emeritus {
+  color: #c1826b;
 }
 
 .staff-btn {
