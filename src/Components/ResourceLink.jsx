@@ -4,7 +4,9 @@ export const ResourceLink = (props) => {
   return (
     <div className="resource-link">
       <h3>
-        <a href={url}>{title}</a>
+        <a target="_blank" rel="noopener noreferrer" href={url}>
+          {title}
+        </a>
       </h3>
       {author && (
         <p className="resource-author">
