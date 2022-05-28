@@ -5,7 +5,7 @@
 
 ## Welcome to the Codecademy Discord Community! :wave:
 
-This is the repository for our community website, which serves as a supplemental resource for the official [Codecademy Discord][discord] server. Just like the Discord server itself, this site is built and maintained by volunteer moderators and community members.
+This is the repository for our [community website][website], which serves as a supplemental resource for the official [Codecademy Discord][discord] server. Just like the Discord server itself, this site is built and maintained by volunteer moderators and community members.
 
 ## All Contributions are Welcome! :handshake:
 
@@ -32,3 +32,4 @@ Thanks for stopping by, and we hope to see you around our community!
 [discord]: https://discord.gg/codecademy
 [existing bugs]: https://github.com/CodecademyCommunity/CodecademyCommunity.github.io/issues?q=is%3Aopen+is%3Aissue+label%3Abug
 [feature request]: https://github.com/CodecademyCommunity/CodecademyCommunity.github.io/issues/new?assignees=&labels=enhancement&template=feature_request.md&title=
+[website]: https://codecademycommunity.github.io/
