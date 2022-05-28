@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e26e6742.css",
-    "main.js": "/static/js/main.8312e2b9.js",
+    "main.css": "/static/css/main.e0b09ca0.css",
+    "main.js": "/static/js/main.4d759beb.js",
     "static/js/787.d18ec7d3.chunk.js": "/static/js/787.d18ec7d3.chunk.js",
     "static/media/modmail1.png": "/static/media/modmail1.7f95e0441a1f27d02392.png",
     "static/media/modmail0.png": "/static/media/modmail0.5a960d6cdea5b4bfd4a2.png",
@@ -9,12 +9,12 @@
     "static/media/codecademy_logo.png": "/static/media/codecademy_logo.b5b639755f3560488e38.png",
     "static/media/cc_sharing.png": "/static/media/cc_sharing.c5c6eae7ab80c87e1261.png",
     "index.html": "/index.html",
-    "main.e26e6742.css.map": "/static/css/main.e26e6742.css.map",
-    "main.8312e2b9.js.map": "/static/js/main.8312e2b9.js.map",
+    "main.e0b09ca0.css.map": "/static/css/main.e0b09ca0.css.map",
+    "main.4d759beb.js.map": "/static/js/main.4d759beb.js.map",
     "787.d18ec7d3.chunk.js.map": "/static/js/787.d18ec7d3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e26e6742.css",
-    "static/js/main.8312e2b9.js"
+    "static/css/main.e0b09ca0.css",
+    "static/js/main.4d759beb.js"
   ]
 }
