@@ -56,6 +56,18 @@ export const Home = () => {
             <div className="tile is-parent">
               <Link
                 className="pagetile tile is-child has-background-white"
+                to="/resources"
+                onClick={handleNavigate}
+              >
+                <h3 className="pagetitle">Resources</h3>
+                <p className="pagedescriptor">
+                  A set of helpful coding resources, compiled by server staff.
+                </p>
+              </Link>
+            </div>
+            <div className="tile is-parent">
+              <Link
+                className="pagetile tile is-child has-background-white"
                 to="/contact"
                 onClick={handleNavigate}
               >
