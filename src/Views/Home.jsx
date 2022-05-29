@@ -54,16 +54,14 @@ export const Home = () => {
               </Link>
             </div>
             <div className="tile is-parent">
-             <Link
+              <Link
                 className="pagetile tile is-child has-background-white"
                 to="/resources"
                 onClick={handleNavigate}
-             >
+              >
                 <h3 className="pagetitle">Resource</h3>
-                <p className="pagedescriptor">
-                  Checkout the resources.
-                </p>
-             </Link>
+                <p className="pagedescriptor">Checkout the resources.</p>
+              </Link>
             </div>
             <div className="tile is-parent">
               <Link
