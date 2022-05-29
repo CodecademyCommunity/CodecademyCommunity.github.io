@@ -59,8 +59,8 @@ export const Home = () => {
                 to="/resources"
                 onClick={handleNavigate}
               >
-                <h3 className="pagetitle">Resource</h3>
-                <p className="pagedescriptor">Checkout the resources.</p>
+                <h3 className="pagetitle">Resources</h3>
+                <p className="pagedescriptor">A set of helpful coding resources, compiled by server staff.</p>
               </Link>
             </div>
             <div className="tile is-parent">
