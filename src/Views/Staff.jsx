@@ -89,6 +89,26 @@ export const Staff = () => {
           })}
         </div>
       </section>
+      <section className="container has-background-white mb-6 p-3">
+        <h2 className="is-size-2 is-size-3-mobile">Moderators Emeritus</h2>
+        <p>
+          Former staff members who have chosen to retire from their moderation
+          duties.
+        </p>
+        <div className="staff-list">
+          {data['emeritus'].map((user) => {
+            return (
+              <StaffCard
+                key={user['name']}
+                name={user['name']}
+                pfp={user['pfp']}
+                role="emeritus"
+                bio={user['bio']}
+              />
+            );
+          })}
+        </div>
+      </section>
     </main>
   );
 };
