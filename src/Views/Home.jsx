@@ -23,7 +23,7 @@ export const Home = () => {
                 className="joinlink"
                 href="https://discord.com/invite/codecademy"
               >
-                <button>Join Us!</button>
+                <button className="button-hover">Join Us!</button>
               </a>
             </div>
           </div>

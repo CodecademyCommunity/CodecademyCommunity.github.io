@@ -10,7 +10,10 @@ export const StaffCard = (props) => {
       <div className="staff-card has-background-white">
         <img alt={`${name}'s profile`} className="profile-picture" src={pfp} />
         <p className={`name ${role}`}>{name}</p>
-        <button onClick={() => setIsActive(!isActive)} className="bio-button">
+        <button
+          onClick={() => setIsActive(!isActive)}
+          className="bio-button button-hover"
+        >
           See Bio
         </button>
       </div>

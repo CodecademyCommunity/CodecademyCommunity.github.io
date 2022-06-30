@@ -20,10 +20,8 @@ export const Header = () => {
           <Link className="navbar-item" to="/" onClick={handleNavigate}>
             <img src={logo} alt="The codecademy logo" className="logo" />
           </Link>
-          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-          <a
+          <button
             onClick={() => setIsActive(!isActive)}
-            role="button"
             className={`navbar-burger burger ${isActive ? 'is-active' : ''}`}
             aria-label="menu"
             aria-expanded="false"
@@ -32,7 +30,7 @@ export const Header = () => {
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
-          </a>
+          </button>
         </div>
         <div
           className={`navbar-menu ${isActive ? 'is-active' : ''}`}
