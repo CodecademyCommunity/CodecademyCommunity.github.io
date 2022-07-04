@@ -42,18 +42,12 @@ export const Header = () => {
             <Link className="navbar-item" to="/" onClick={handleNavigate}>
               Home
             </Link>
-            <Link
-              className="navbar-item"
-              to="/staff"
-              data-testid="server-staff-link"
-              onClick={handleNavigate}
-            >
+            <Link className="navbar-item" to="/staff" onClick={handleNavigate}>
               Server Staff
             </Link>
             <Link
               className="navbar-item"
               to="/contact"
-              data-testid="contact-us-link"
               onClick={handleNavigate}
             >
               Contact Us
@@ -61,7 +55,6 @@ export const Header = () => {
             <Link
               className="navbar-item"
               to="/sharing-code"
-              data-testid="sharing-code-link"
               onClick={handleNavigate}
             >
               Sharing Code
@@ -69,7 +62,6 @@ export const Header = () => {
             <Link
               className="navbar-item"
               to="/getting-help"
-              data-testid="getting-help-link"
               onClick={handleNavigate}
             >
               Getting Help
@@ -77,17 +69,11 @@ export const Header = () => {
             <Link
               className="navbar-item"
               to="/resources"
-              data-testid="resources-link"
               onClick={handleNavigate}
             >
               Resources
             </Link>
-            <Link
-              className="navbar-item"
-              to="/faq"
-              data-testid="faq-link"
-              onClick={handleNavigate}
-            >
+            <Link className="navbar-item" to="/faq" onClick={handleNavigate}>
               FAQ
             </Link>
           </div>
