@@ -64,7 +64,7 @@ describe('navigation of navbar links', () => {
 
 describe('navigation with ScrollToTop functionality', () => {
   it('scrolls to the top of the page upon navigation', async () => {
-    const scroll = jest.spyOn(window, 'scrollTo');
+    window.scrollTo = jest.fn();
 
     render(
       <App>
@@ -76,6 +76,6 @@ describe('navigation with ScrollToTop functionality', () => {
     const faqLink = screen.getAllByText('FAQ')[0];
     await user.click(faqLink);
 
-    expect(scroll).toHaveBeenCalledWith(0, 0);
+    expect(window.scrollTo).toHaveBeenCalledWith(0, 0);
   });
 });
