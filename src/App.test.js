@@ -1,6 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import App from './App';
+import ScrollToTop from './Components/ScrollToTop';
 
 describe('home page', () => {
   it('renders the Home page', () => {
@@ -58,5 +59,23 @@ describe('navigation of navbar links', () => {
     const faqLink = screen.getAllByText('FAQ')[0];
     await user.click(faqLink);
     expect(screen.getByText(/Is Codecademy Down/)).toBeInTheDocument();
+  });
+});
+
+describe('navigation with ScrollToTop functionality', () => {
+  it('scrolls to the top of the page upon navigation', async () => {
+    const scroll = jest.spyOn(window, 'scrollTo');
+
+    render(
+      <App>
+        <ScrollToTop />
+      </App>
+    );
+
+    const user = userEvent.setup();
+    const faqLink = screen.getAllByText('FAQ')[0];
+    await user.click(faqLink);
+
+    expect(scroll).toHaveBeenCalledWith(0, 0);
   });
 });
