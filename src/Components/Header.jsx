@@ -10,7 +10,6 @@ export const Header = () => {
 
   function handleNavigate() {
     setIsActive(false);
-    window.scroll({ top: 0, left: 0 });
   }
 
   return (

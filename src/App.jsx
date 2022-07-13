@@ -9,10 +9,11 @@ import { Header } from './Components/Header.jsx';
 import { Footer } from './Components/Footer.jsx';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 
-function App() {
+function App(props = {}) {
   return (
     <>
       <HashRouter>
+        {props.children}
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />

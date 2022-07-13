@@ -1,8 +1,6 @@
 import { Link } from 'react-router-dom';
 
 export const Home = () => {
-  const handleNavigate = () => window.scroll({ top: 0, left: 0 });
-
   return (
     <>
       <main>
@@ -35,7 +33,6 @@ export const Home = () => {
               <Link
                 className="pagetile tile is-child has-background-white"
                 to="/staff"
-                onClick={handleNavigate}
               >
                 <h3 className="pagetitle">Server Staff</h3>
                 <p className="pagedescriptor">Meet the server staff!</p>
@@ -45,7 +42,6 @@ export const Home = () => {
               <Link
                 className="pagetile tile is-child has-background-white"
                 to="/sharing-code"
-                onClick={handleNavigate}
               >
                 <h3 className="pagetitle">Sharing Code</h3>
                 <p className="pagedescriptor">
@@ -57,7 +53,6 @@ export const Home = () => {
               <Link
                 className="pagetile tile is-child has-background-white"
                 to="/resources"
-                onClick={handleNavigate}
               >
                 <h3 className="pagetitle">Resources</h3>
                 <p className="pagedescriptor">
@@ -69,7 +64,6 @@ export const Home = () => {
               <Link
                 className="pagetile tile is-child has-background-white"
                 to="/contact"
-                onClick={handleNavigate}
               >
                 <h3 className="pagetitle">Contact Us</h3>
                 <p className="pagedescriptor">
@@ -81,7 +75,6 @@ export const Home = () => {
               <Link
                 className="pagetile tile is-child has-background-white"
                 to="/getting-help"
-                onClick={handleNavigate}
               >
                 <h3 className="pagetitle">Getting Help</h3>
                 <p className="pagedescriptor">
@@ -93,7 +86,6 @@ export const Home = () => {
               <Link
                 className="pagetile tile is-child has-background-white"
                 to="/faq"
-                onClick={handleNavigate}
               >
                 <h3 className="pagetitle">FAQs</h3>
                 <p className="pagedescriptor">
