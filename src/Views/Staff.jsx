@@ -1,5 +1,4 @@
-import data from '../data/staff.json';
-import blankPfp from '../assets/img/discord-blank2.png';
+import data from '../data/staff.js';
 import { StaffCard } from '../Components/StaffCard';
 
 export const Staff = () => {
@@ -58,15 +57,6 @@ export const Staff = () => {
               />
             );
           })}
-          {/* tgrtim must be accounted for seperatly due to having blank pfp and discord weirdness with URLS
-           */}
-          <StaffCard
-            key="tgrtim"
-            name="tgrtim"
-            pfp={blankPfp}
-            role="mod"
-            bio="Community staff member"
-          />
         </div>
       </section>
       <section className="container has-background-white mb-6 p-3">
