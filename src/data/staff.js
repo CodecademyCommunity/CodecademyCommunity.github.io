@@ -104,6 +104,7 @@ const data = {
     {
       name: 'Miel',
       pfp: require('../assets/img/profiles/miel.png'),
+      bio: 'Code counselor',
     },
   ],
   emeritus: [
